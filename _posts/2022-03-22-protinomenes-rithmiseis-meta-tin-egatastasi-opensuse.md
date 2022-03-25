@@ -140,10 +140,10 @@ sudo zypper install --no-confirm google-chrome-stable
 sudo zypper install virtualbox
 {% endhighlight %}
 
-Στην συνέχεια πρόσθεσα τον χρήστη (your-user) στην ομάδα vboxusers.
+Στην συνέχεια πρoσθέοτουμε  τον  χρήστη μας   στην ομάδα vboxusers.
 
 {% highlight ruby %}
-sudo gpasswd -a your-user vboxusers
+sudo gpasswd -a $USER gitvboxusers
 {% endhighlight %}
 
 Έκανα μια επανεκκίνηση και ήταν έτοιμο.
