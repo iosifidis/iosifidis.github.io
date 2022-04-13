@@ -81,7 +81,14 @@ sudo zypper install $(cat installed-software.bak)
 Εγκατάσταση προγραμμάτων από τα αποθετήρια. Αν δεν χρειάζεστε κάποια, απλά μην τα εγκαθιστάτε.
 
 {% highlight ruby %}
-sudo zypper install audacity mc gtranslator poedit meld gnome-subtitles gparted git hplip youtube-dl smplayer easytag gnome-calendar gnome-connections gnome-common dconf-editor gcc aria2 imagewriter gnome-boxes make sox htop megatools filezilla gnome-gmail-notifier photorec testdisk powertop typelib-1_0-Vte-2.91 alacare nano hexchat libfuse2 simplescreenrecorder epiphany vlc alpine menulibre live-fat-stick live-grub-stick live-usb-gui openjpeg2 gimp-save-for-web aspell-el python3-tk ntfs-3g dia python-nautilus-common-files pdfarranger pdftk cmake traceroute nmap translate-shell rar libgtop virtualbox sensors cool-retro-term health-check remmina remmina-plugin-rdp remmina-plugin-vnc rdesktop gnome-multi-writer projectlibre thunderbolt-user-space bolt
+sudo zypper install audacity mc gtranslator poedit meld gnome-subtitles gparted git hplip youtube-dl \
+smplayer easytag gnome-calendar gnome-connections gnome-common dconf-editor gcc aria2 imagewriter \
+gnome-boxes make sox htop megatools filezilla gnome-gmail-notifier photorec testdisk powertop \
+typelib-1_0-Vte-2.91 alacare nano hexchat libfuse2 simplescreenrecorder epiphany vlc alpine menulibre \
+live-fat-stick live-grub-stick live-usb-gui openjpeg2 gimp-save-for-web aspell-el python3-tk ntfs-3g dia \
+python-nautilus-common-files pdfarranger pdftk cmake traceroute nmap translate-shell rar libgtop virtualbox \
+sensors cool-retro-term health-check remmina remmina-plugin-rdp remmina-plugin-vnc rdesktop gnome-multi-writer \
+projectlibre thunderbolt-user-space bolt
 {% endhighlight %}
 
 ## Εγκατάσταση προγραμμάτων από το Flatpak
@@ -89,7 +96,14 @@ sudo zypper install audacity mc gtranslator poedit meld gnome-subtitles gparted 
 Επίσης εάν δεν τα χρειάζεστε όλα, μην τα εγκαθιστάτε.
 
 {% highlight ruby %}
-flatpak install chat.rocket.RocketChat com.anydesk.Anydesk com.axosoft.GitKraken com.discordapp.Discord com.github.junrrein.PDFSlicer com.microsoft.Teams com.slack.Slack org.codeblocks.codeblocks org.gtk.Gtk3theme.Yaru-dark org.kde.KStyle.Adwaita org.onlyoffice.desktopeditors org.signal.Signal org.telegram.desktop us.zoom.Zoom com.github.xournalpp.xournalpp com.uploadedlobster.peek org.wireshark.Wireshark com.stremio.Stremio io.github.seadve.Kooha org.raspberrypi.rpi-imager org.eclipse.Java com.google.AndroidStudio com.notepadqq.Notepadqq io.github.liberodark.OpenDrive dev.Cogitri.Health com.jgraph.drawio.desktop org.blender.Blender im.riot.Riot
+flatpak install chat.rocket.RocketChat com.anydesk.Anydesk com.axosoft.GitKraken com.discordapp.Discord \
+com.github.junrrein.PDFSlicer com.microsoft.Teams com.slack.Slack org.codeblocks.codeblocks \
+org.gtk.Gtk3theme.Yaru-dark org.kde.KStyle.Adwaita org.onlyoffice.desktopeditors org.signal.Signal \
+org.telegram.desktop us.zoom.Zoom com.github.xournalpp.xournalpp com.uploadedlobster.peek \
+org.wireshark.Wireshark com.stremio.Stremio io.github.seadve.Kooha org.raspberrypi.rpi-imager \
+org.eclipse.Java com.google.AndroidStudio com.notepadqq.Notepadqq io.github.liberodark.OpenDrive \
+dev.Cogitri.Health com.jgraph.drawio.desktop org.blender.Blender im.riot.Riot com.github.johnfactotum.Foliate \
+org.zotero.Zotero
 {% endhighlight %}
 
 Προσοχή στο discord, για να μπορείτε να στέλνετε αρχεία από το home, πρέπει να δώσετε την εντολή:
