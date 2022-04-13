@@ -79,8 +79,8 @@ rdesktop -g 1024x768 -u Administrator IP
 Η εγκατάσταση, ανάλογα με τη διανομή που έχετε, γίνεται με τον παρακάτω τρόπο:  
 
 {% highlight ruby %}
-# zypper in gnome-connections \[σε openSUSE\]  
-# pacman -S gnome-connections \[σε Arch Linux\]
+# zypper in gnome-connections (σε openSUSE)  
+# pacman -S gnome-connections (σε Arch Linux)
 {% endhighlight %}
   
 **Flatpak**  
