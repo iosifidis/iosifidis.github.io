@@ -88,7 +88,7 @@ typelib-1_0-Vte-2.91 alacare nano hexchat libfuse2 simplescreenrecorder epiphany
 live-fat-stick live-grub-stick live-usb-gui openjpeg2 gimp-save-for-web aspell-el python3-tk ntfs-3g dia \
 python-nautilus-common-files pdfarranger pdftk cmake traceroute nmap translate-shell rar libgtop virtualbox \
 sensors cool-retro-term health-check remmina remmina-plugin-rdp remmina-plugin-vnc rdesktop gnome-multi-writer \
-projectlibre thunderbolt-user-space bolt
+projectlibre thunderbolt-user-space bolt xsane hplip-sane breeze5-cursors
 {% endhighlight %}
 
 ## Εγκατάσταση προγραμμάτων από το Flatpak
