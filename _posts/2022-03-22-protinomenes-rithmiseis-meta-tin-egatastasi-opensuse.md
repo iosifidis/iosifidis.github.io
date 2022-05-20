@@ -88,7 +88,7 @@ typelib-1_0-Vte-2.91 alacare nano hexchat libfuse2 simplescreenrecorder epiphany
 live-fat-stick live-grub-stick live-usb-gui openjpeg2 gimp-save-for-web aspell-el python3-tk ntfs-3g dia \
 python-nautilus-common-files pdfarranger pdftk cmake traceroute nmap translate-shell rar libgtop virtualbox \
 sensors cool-retro-term health-check remmina remmina-plugin-rdp remmina-plugin-vnc rdesktop gnome-multi-writer \
-projectlibre thunderbolt-user-space bolt xsane hplip-sane breeze5-cursors
+projectlibre thunderbolt-user-space bolt xsane hplip-sane breeze5-cursors gnome-text-editor
 {% endhighlight %}
 
 ## Εγκατάσταση προγραμμάτων από το Flatpak
@@ -103,7 +103,7 @@ org.telegram.desktop us.zoom.Zoom com.github.xournalpp.xournalpp com.uploadedlob
 org.wireshark.Wireshark com.stremio.Stremio io.github.seadve.Kooha org.raspberrypi.rpi-imager \
 org.eclipse.Java com.google.AndroidStudio com.notepadqq.Notepadqq io.github.liberodark.OpenDrive \
 dev.Cogitri.Health com.jgraph.drawio.desktop org.blender.Blender im.riot.Riot com.github.johnfactotum.Foliate \
-org.zotero.Zotero
+org.zotero.Zotero net.codeindustry.MasterPDFEditor com.xnview.XnSketch
 {% endhighlight %}
 
 Προσοχή στο discord, για να μπορείτε να στέλνετε αρχεία από το home, πρέπει να δώσετε την εντολή:
