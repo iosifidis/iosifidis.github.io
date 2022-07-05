@@ -108,7 +108,7 @@ reflector --verbose -l 200 -p http --sort rate --save /etc/pacman.d/mirrorlist
 * Εγκατασταση βασικού συστήματος.
 
 {% highlight ruby %}
-pacstrap /mnt base base-devel linux linux-firmware nano dialog wpa_supplicant sudo reflector wget curl
+pacstrap /mnt base base-devel linux linux-firmware nano dialog wpa_supplicant sudo reflector wget curl networkmanager
 {% endhighlight %}
 
 * Δημιουργία του fstab.
@@ -385,19 +385,19 @@ makepkg -si
 * Εγκατάσταση fonts κλπ.
 
 {% highlight ruby %}
-pacman -S font-bh-ttf ttf-dejavu ttf-bitstream-vera
+pacman -S ttf-dejavu ttf-bitstream-vera
 {% endhighlight %}
 
 * Εγκατάσταση [LibreOffice](https://wiki.archlinux.org/index.php/LibreOffice).
 
 {% highlight ruby %}
-pacman -S libreoffice-still libreoffice-still-sdk libreoffice-still-el jdk7-openjdk jre7-openjdk
+pacman -S libreoffice-still libreoffice-still-sdk libreoffice-still-el
 {% endhighlight %}
 
 Σε περίπτωση που θέλετε τη νεότερη έκδοση, μπορείτε να εκγαταστήσετε τα
 
 {% highlight ruby %}
-pacman -S libreoffice-fresh libreoffice-fresh-sdk libreoffice-fresh-el jdk7-openjdk jre7-openjdk
+pacman -S libreoffice-fresh libreoffice-fresh-sdk libreoffice-fresh-el
 {% endhighlight %}
 
 * Εγκατάσταση διαφόρων προγραμμάτων που χρησιμοποιώ προσωπικά. Σβήστε ότι δεν χρειάζεστε.
@@ -405,7 +405,7 @@ pacman -S libreoffice-fresh libreoffice-fresh-sdk libreoffice-fresh-el jdk7-open
 {% highlight ruby %}
 pacman -S cups transmission-gtk subdownloader subtitleeditor gnome-subtitles audacity audacious \
 audacious-plugins smplayer smtube mplayer asunder openshot devede mencoder sound-juicer youtube-dl \
-easytag inkscape gimp gimp-help-el aspell-el gutenprint gphoto2 numlockx mc davfs2 aria2 filezilla \
+easytag inkscape gimp gimp-help-el aspell-el gutenprint gphoto2 numlockx mc aria2 filezilla \
 firefox firefox-i18n-el thunderbird thunderbird-i18n-el sox subversion meld poedit gtranslator acpid \
 htop glances lsof powertop testdisk deja-dup libdvdcss ogmtools xchm gparted stardict gnome-common \
 alacarte seahorse virtualbox virtualbox-host-dkms net-tools bchunk gst-libav simplescreenrecorder \
@@ -417,9 +417,9 @@ docker docker-compose hplip pdfcrack pkgfile telegram-desktop poppler pdftk texl
 
 {% highlight ruby %}
 **AUR HELPER** -S viber smartgit onlyoffice-bin signal-desktop-bin brave-bin skypeforlinux-stable-bin \
-teamviewer dropbox nautilus-dropbox menulibre pdfsam luckybackup imagewriter multisystem ubuntu-themes \
+teamviewer dropbox nautilus-dropbox menulibre pdfsam luckybackup multisystem ubuntu-themes pacaur\
 virtualbox-ext-oracle humanity-icon-theme yandex-disk unetbootin repacman gconf-editor megatools megasync \
-gtk-theme-adwaita-tweaks pacaur google-chrome --noconfirm
+google-chrome --noconfirm
 {% endhighlight %}
 
 - Το --noconfirm το χρησιμοποιείτε για να μην σας ρωτάει συνέχεια.
