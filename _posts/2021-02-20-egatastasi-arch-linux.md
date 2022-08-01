@@ -359,7 +359,7 @@ pacman -S linux-headers
 * Αποθήκευση του .bashrc από το github.
 
 {% highlight ruby %}
-wget https://raw.githubusercontent.com/iosifidis/dot-files/master/Arch/.bashrc -O .bachrc
+wget https://raw.githubusercontent.com/iosifidis/dot-files/master/Arch/.bashrc -O .bashrc
 {% endhighlight %}
 
 Αφού ολοκληρώθηκε και η εγκατάσταση γραφικών και του περιβάλλοντος, μπορείτε να βγείτε από το chroot και να κλείσετε τον υπολογιστή σας.
@@ -377,7 +377,7 @@ shutdown now
 Στον κατάλογό σας, εκτελέστε τις εντολές:
 
 {% highlight ruby %}
-git clone [https://aur.archlinux.org/yay.git](https://aur.archlinux.org/yay.git)
+git clone https://aur.archlinux.org/yay.git
 cd yay
 makepkg -si
 {% endhighlight %}

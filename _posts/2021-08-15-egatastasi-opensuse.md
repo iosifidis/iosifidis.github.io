@@ -201,7 +201,7 @@ sudo zypper install audacity mc gtranslator poedit gnome-subtitles gparted meld 
 youtube-dl smplayer easytag gnome-common dconf-editor gcc aria2 imagewriter gnome-boxes make \
 sox htop megatools filezilla gnome-gmail-notifier photorec testdisk powertop typelib-1_0-Vte-2.91 \
 alacare nano hexchat libfuse2 simplescreenrecorder epiphany vlc alpine menulibre live-fat-stick \
-live-grub-stick live-usb-gui openjpeg openjpeg2 gimp-save-for-web aspell-el python3-tk
+live-grub-stick live-usb-gui openjpeg openjpeg2 gimp-save-for-web aspell-el iptraf-ng
 {% endhighlight %}
 
 
