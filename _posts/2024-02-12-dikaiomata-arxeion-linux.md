@@ -30,13 +30,10 @@ twitter_text: 'Αποκωδικοποιώντας τις πληροφορίες 
   
 Για να μετατρέψετε από δυαδικό σε οκταδικό, αθροίστε τις τιμές που αντιπροσωπεύονται από «r» (ανάγνωση), «w» (εγγραφή) και «x» (εκτέλεση) σε κάθε σύνολο δικαιωμάτων. Για παράδειγμα, η δυαδική άδεια 'rwxr-xr-x' μεταφράζεται στην οκταδική άδεια 755:  
   
-\- r = 4 (ανάγνωση)  
-  
-\- w = 2 (εγγραφη)  
-  
-\- x = 1 (εκτέλεση)  
-  
-\- - = 0 (χωρίς άδεια)  
+* r = 4 (ανάγνωση)  
+* w = 2 (εγγραφη)  
+* x = 1 (εκτέλεση)  
+* - = 0 (χωρίς άδεια)  
   
 
 ## Επεξήγηση κοινών δικαιωμάτων αρχείων
@@ -87,7 +84,7 @@ twitter_text: 'Αποκωδικοποιώντας τις πληροφορίες 
 * 𝗙𝗶𝗹𝗲 𝗦𝗶𝘇𝗲: Εμφανίζει το μέγεθος του αρχείου σε byte.  
 * 𝗦𝗽𝗲𝗰𝗶𝗮𝗹 𝗣𝗲𝗿𝗺𝗶𝘀𝘀𝗶𝗼𝗻𝘀: Σύμβολα όπως 's' ή 't' αντιπροσωπεύουν ειδικά δικαιώματα ενός αρχείου με δικαιώματα εκτέλεσης, όπως οι ιδιοκτήτες.  
 
-[![File Permissions](/post_images/fileSystem/file-permissions.gif "File Permissions"){:height="300px" width="200px"}](/post_images/fileSystem/file-permissions.gif )
+[![File Permissions](/post_images/fileSystem/file-permissions.gif "File Permissions"){:height="1426px" width="1124px"}](/post_images/fileSystem/file-permissions.gif)
 
 Αρχική δημοσίευση:  
 [https://eiosifidis.blogspot.com/2024/02/dikaiomata-arxeion-linux.html](https://eiosifidis.blogspot.com/2024/02/dikaiomata-arxeion-linux.html)
