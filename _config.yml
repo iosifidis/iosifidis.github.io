@@ -1,18 +1,18 @@
 # Site settings
-title: Τα εγχειρίδιά μου
-description: Διάφορα εγχειρίδια για Nextcloud, openSUSE, ONLYOFFICE, ownCloud, GNU Health
+title: Η καταπληκτική ιστοσελίδα του Ευστάθιος Ιωσηφίδη
+description: Περί ανοικτού λογισμικού Nextcloud, openSUSE, Ubuntu, Fedora, ONLYOFFICE, ownCloud, GNU Health και άλλων
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://iosifidis.github.io" # the base hostname & protocol for your site e.g. http://iosifidis.gr
 
 # User settings
 username: Ευστάθιος Ιωσηφίδης
-user_description: Veterinarian, openSUSE member, GNOME Foundation member
-user_title: Εγχειρίδια για Nextcloud, openSUSE, GNU Health, ONLYOFFICE, ownCloud και άλλα πολλά!!!
+user_description: Veterinarian, openSUSE member, GNOME Foundation member, Fedora ambassador, Ubuntu member
+user_title: Περί ανοικτού λογισμικού Nextcloud, openSUSE, Ubuntu, Fedora, ONLYOFFICE, ownCloud, GNU Health και άλλων περίεργων
 email: iefstathios@gmail.com
 linkedin_username: eiosifidis
 facebook_username: eiosifidis
 instagram_username: e.iosifidis
-twitter_username: eiosifidis
+twitter_username: nexteiosifidis
 github_username:  iosifidis
 disqus_username: iblog-eiosifidis
 
@@ -32,11 +32,11 @@ compress_html:
 # Links to include in menu navigation
 # For external links add external: true
 links:
-  - title: Αρχική
+  - title: Home
     url: /
-  - title: Σειρές
+  - title: Series
     url: /series
-  - title: Ετικέτες
+  - title: Tags
     url: /tags
   - title: Περί
     url: /about
