@@ -154,7 +154,8 @@ org.telegram.desktop org.x.Warpinator us.zoom.Zoom com.github.xournalpp.xournalp
 com.uploadedlobster.peek org.wireshark.Wireshark com.stremio.Stremio dev.alextren.Spot \
 com.spotify.Client org.flameshot.Flameshot io.github.seadve.Kooha org.shotcut.Shotcut \ 
 org.olivevideoeditor.Olive com.getferdi.Ferdi io.dbeaver.DBeaverCommunity \
-net.codeindustry.MasterPDFEditor org.openshot.OpenShot org.raspberrypi.rpi-imager org.eclipse.Java
+net.codeindustry.MasterPDFEditor org.openshot.OpenShot org.raspberrypi.rpi-imager org.eclipse.Java \
+io.github.giantpinkrobots.flatsweep
 {% endhighlight %}
 
 
@@ -201,7 +202,7 @@ sudo zypper install audacity mc gtranslator poedit gnome-subtitles gparted meld 
 youtube-dl smplayer easytag gnome-common dconf-editor gcc aria2 imagewriter gnome-boxes make \
 sox htop megatools filezilla gnome-gmail-notifier photorec testdisk powertop typelib-1_0-Vte-2.91 \
 alacare nano hexchat libfuse2 simplescreenrecorder epiphany vlc alpine menulibre live-fat-stick \
-live-grub-stick live-usb-gui openjpeg openjpeg2 gimp-save-for-web aspell-el iptraf-ng
+live-grub-stick live-usb-gui openjpeg openjpeg2 gimp-save-for-web aspell-el iptraf-ng calligra-plan virt-manager
 {% endhighlight %}
 
 
