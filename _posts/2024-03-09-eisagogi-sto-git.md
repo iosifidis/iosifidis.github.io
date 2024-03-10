@@ -11,7 +11,7 @@ categories:
 twitter_text: 'Μάθετε γρήγορα τις βασικές αρχές και εντολές του GIT!'
 ---
 
-![GIT](/post_images/git/Git-logo.png "GIT"){:height="200px" width="300px"}
+![GIT](/post_images/git/Git-logo.png "GIT"){:height="300px" width="200px"}
 
 Ο έλεγχος έκδοσης με **GIT** έχει γίνει μια βασική δεξιότητα για τους προγραμματιστές. Αλλά η κατανόηση των βασικών αρχών του GIT μπορεί να φαίνεται τρομακτική στην αρχή. Σε αυτό το άρθρο, θα δούμε μια γρήγορη επισκόπηση ορισμένων βασικών εννοιών και εντολών GIT.  
   
@@ -52,7 +52,7 @@ twitter_text: 'Μάθετε γρήγορα τις βασικές αρχές κα
   
 Στη συνέχεια θα δούμε τρόπο εργασίας και χρήση εντολών.
 
-![Git workflow](/post_images/git/git-workflow.gif "Git workflow"){:height="200px" width="300px"}
+![Git workflow](/post_images/git/git-workflow.gif "Git workflow")
 
 Αρχική δημοσίευση:  
 [https://eiosifidis.blogspot.com/2024/02/eisagogi-sto-git.html](https://eiosifidis.blogspot.com/2024/02/eisagogi-sto-git.html)
