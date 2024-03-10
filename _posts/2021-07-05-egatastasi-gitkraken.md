@@ -9,7 +9,7 @@ tags:
 - εγκατάσταση
 categories:
 - GitKraken
-- Git
+- GIT
 twitter_text: 'Εγκατάσταση @GitKraken, ότι πιο εύκολο για διαχείριση αποθετηρίων #Git'
 ---
 
