@@ -5,18 +5,12 @@ date: 2022-03-24 12:00:00
 description: Η εγκατάσταση Arch Linux γίνεται κυρίως από τερματικό. Αν δεν μπορείτε να την κάνετε εσείς, μπορεί σίγουρα κάποιος φίλος σας απομακρυσμένα (με ssh).
 tags:
 - arch linux
-- archlinux
-- remote
 - απομακρυσμένη
 - εγκατάσταση
-- ssh
 categories:
 - Arch Linux
-- ArchLinux
-- Remote
-- Απομακρυσμένη
+- Greek
 - Εγκατάσταση
-- SSH
 twitter_text: 'Απομακρυσμένη εγκατάσταση Arch Linux'
 ---
 

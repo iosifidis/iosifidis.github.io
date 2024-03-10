@@ -1,19 +1,17 @@
 ---
 layout: post
-title: "Προτεινόμες ρυθμίσεις και προγράμματα μετά την εγκατάσταση openSUSE"
+title: "Προτεινόμενες ρυθμίσεις και προγράμματα μετά την εγκατάσταση openSUSE"
 date: 2022-03-10 12:00:00
 description: Για να έχετε ένα λειτουργικό σύστημα openSUSE, προτείνεται να εγκαταστήσετε αυτά που λέει το άρθρο
 tags:
 - openSUSE
 - ρυθμίσεις
-- flatpak
 - προγράμματα
 categories:
 - openSUSE
 - Ρυθμίσεις
-- Flatpak
-- Προγράμματα
-twitter_text: 'Προτεινόμες ρυθμίσεις και προγράμματα μετά την εγκατάσταση openSUSE'
+- Greek
+twitter_text: 'Προτεινόμενες ρυθμίσεις και προγράμματα μετά την εγκατάσταση openSUSE'
 ---
 
 ![openSUSE](/post_images/opensuse/openSUSE-round.png "openSUSE")

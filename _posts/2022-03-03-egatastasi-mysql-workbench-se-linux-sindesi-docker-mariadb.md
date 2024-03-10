@@ -12,9 +12,7 @@ tags:
 categories:
 - MySQL
 - Εγκατάσταση
-- Workbench
-- MariaDB
-- Docker
+- Greek
 twitter_text: 'Εγκατάσταση MySQL Workbench σε Linux και σύνδεση με docker MariaDB'
 ---
 

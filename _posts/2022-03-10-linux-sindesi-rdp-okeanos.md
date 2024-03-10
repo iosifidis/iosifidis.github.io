@@ -13,11 +13,7 @@ tags:
 - rdp
 categories:
 - ~okeanos
-- Flatpak
-- Vinagre
-- Remina
-- rdesktop
-- rdp
+- Greek
 twitter_text: 'Τρόποι σύνδεσης από Linux, σε εικονική μηχανή Windows στην υπηρεσία ~okeanos'
 ---
 
