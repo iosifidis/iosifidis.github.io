@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Εισαγωγή στο Git"
-date: 2024-02-19 12:00:00
+date: 2024-03-09 12:00:00
 description: Κατανοήστε τα βασικά του Git και ξεκινήστε τον έλεγχο έκδοσης των projects σας. Μάθετε για repositories, commits, branches και πολλά άλλα.
 tags:
 - git
