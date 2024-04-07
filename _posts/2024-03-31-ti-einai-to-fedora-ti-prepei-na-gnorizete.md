@@ -57,7 +57,7 @@ twitter_text: 'Τι είναι το Fedora; Όλα όσα πρέπει να γν
   
 Όταν το Fedora εισάγει θεμελιώδεις αλλαγές, όπως τα παραπάνω παραδείγματα, είναι καλό σημάδι ότι αυτές οι τεχνολογίες είναι επιτέλους ώριμες. Τότε βλέπετε άλλες διανομές που ακολουθούν αργά.  
   
-Αν θέλετε να ζείτε στα άκρα, υπάρχουν εκδόσεις ανάπτυξης του [Fedora όπως το Rawhide](https://docs.fedoraproject.org/en-US/releases/rawhide/?rel=iosifidis.gr).  
+Αν θέλετε να ζείτε στα άκρα, υπάρχουν εκδόσεις ανάπτυξης του [Fedora όπως το Rawhide](https://docs.fedoraproject.org/en-US/releases/rawhide/?rel=iosifidis.gr){:target="_blank"}.  
   
 
 ## Εκδόσεις Fedora
@@ -70,25 +70,25 @@ twitter_text: 'Τι είναι το Fedora; Όλα όσα πρέπει να γν
 
 Το Fedora Workstation είναι η κορυφαία έκδοση του έργου. Διαθέτει την τελευταία τρέχουσα σταθερή έκδοση GNOME και υποστήριξη Flatpak out-of-the-box.  
   
-Λήψη: [Workstation Fedora](https://fedoraproject.org/en/workstation/download/?rel=iosifidis.gr) (δωρεάν & ανοιχτού κώδικα)  
+Λήψη: [Workstation Fedora](https://fedoraproject.org/en/workstation/download/?rel=iosifidis.gr){:target="_blank"} (δωρεάν & ανοιχτού κώδικα)  
   
 ### 2\. Silverblue
 
-Η αναδυόμενη έκδοση [Fedora Silverblue](https://fedoraproject.org/silverblue/?rel=iosifidis.gr) είναι μια "αμετάβλητη" παραλλαγή του Fedora Workstation. Η κύρια διαφορά είναι ότι οι χρήστες είναι πιθανό να αντιμετωπίσουν προβλήματα με την εγκατάσταση RPM, καθώς το Flatpak είναι η εγγενής μορφή πακέτου του Silverblue.  
+Η αναδυόμενη έκδοση [Fedora Silverblue](https://fedoraproject.org/silverblue/?rel=iosifidis.gr){:target="_blank"} είναι μια "αμετάβλητη" παραλλαγή του Fedora Workstation. Η κύρια διαφορά είναι ότι οι χρήστες είναι πιθανό να αντιμετωπίσουν προβλήματα με την εγκατάσταση RPM, καθώς το Flatpak είναι η εγγενής μορφή πακέτου του Silverblue.  
   
-Λήψη: [Fedora Silverblue](https://fedoraproject.org/silverblue/download/?rel=iosifidis.gr) (δωρεάν & ανοιχτού κώδικα)  
+Λήψη: [Fedora Silverblue](https://fedoraproject.org/silverblue/download/?rel=iosifidis.gr){:target="_blank"} (δωρεάν & ανοιχτού κώδικα)  
   
 ### 3\. Kinoite
 
-Το [Kinoite](https://fedoraproject.org/kinoite/?rel=iosifidis.gr) είναι μια ανερχόμενη έκδοση του Fedora που δεν εμφανίζεται ακόμα στην αρχική σελίδα. Το Kinoite είναι απλώς μια εναλλακτική λύση με "γεύση" KDE Plasma εναλλακτικό του Silverblue.  
+Το [Kinoite](https://fedoraproject.org/kinoite/?rel=iosifidis.gr){:target="_blank"} είναι μια ανερχόμενη έκδοση του Fedora που δεν εμφανίζεται ακόμα στην αρχική σελίδα. Το Kinoite είναι απλώς μια εναλλακτική λύση με "γεύση" KDE Plasma εναλλακτικό του Silverblue.  
   
-Λήψη: [Fedora Kinoite](https://fedoraproject.org/kinoite/download/?rel=iosifidis.gr) (δωρεάν & ανοιχτού κώδικα)  
+Λήψη: [Fedora Kinoite](https://fedoraproject.org/kinoite/download/?rel=iosifidis.gr){:target="_blank"} (δωρεάν & ανοιχτού κώδικα)  
   
 ### 4\. Sericea
 
-Ο δημοφιλής διαχειριστής παραθύρων πλακιδίων Sway προσφέρεται από τη [Fedora Sericea](https://fedoraproject.org/sericea/?rel=iosifidis.gr) με "αμετάβλητο" τρόπο. Κάνει το Sway προσιτό και ενδιαφέρον τόσο στους νέους όσο και στους έμπειρους χρήστες που προτιμούν να μην αλληλεπιδρούν με το περιβάλλον τους μέσω ποντικιού, επιφάνειας αφής ή άλλης συσκευής κατάδειξης. Το Fedora Sericea προσφέρει μια ολοκληρωμένη εμπειρία με μια απλή διεπαφή χρήστη και περιλαμβάνει ελαφριές εφαρμογές για περιήγηση στο web, σύνταξη κειμένου και αναπαραγωγή πολυμέσων.  
+Ο δημοφιλής διαχειριστής παραθύρων πλακιδίων Sway προσφέρεται από τη [Fedora Sericea](https://fedoraproject.org/sericea/?rel=iosifidis.gr){:target="_blank"} με "αμετάβλητο" τρόπο. Κάνει το Sway προσιτό και ενδιαφέρον τόσο στους νέους όσο και στους έμπειρους χρήστες που προτιμούν να μην αλληλεπιδρούν με το περιβάλλον τους μέσω ποντικιού, επιφάνειας αφής ή άλλης συσκευής κατάδειξης. Το Fedora Sericea προσφέρει μια ολοκληρωμένη εμπειρία με μια απλή διεπαφή χρήστη και περιλαμβάνει ελαφριές εφαρμογές για περιήγηση στο web, σύνταξη κειμένου και αναπαραγωγή πολυμέσων.  
   
-Λήψη: [Fedora Kinoite](https://fedoraproject.org/sericea/download/?rel=iosifidis.gr) (δωρεάν & ανοιχτού κώδικα)  
+Λήψη: [Fedora Kinoite](https://fedoraproject.org/sericea/download/?rel=iosifidis.gr){:target="_blank"} (δωρεάν & ανοιχτού κώδικα)  
   
 ## Fedora Spins
 
@@ -98,89 +98,89 @@ twitter_text: 'Τι είναι το Fedora; Όλα όσα πρέπει να γν
 
 ![Fedora KDE Plasma](/post_images/fedora/Fedora-KDE.png "Fedora KDE Plasma")
 
-Το [KDE Plasma Spin](https://fedoraproject.org/spins/kde/?rel=iosifidis.gr) του Fedora αφήνει ανέπαφες τις περισσότερες προεπιλογές του KDE, αλλάζοντας μόνο την ταπετσαρία και το εικονίδιο εκκίνησης εφαρμογών και επιτρέποντας το διπλό κλικ για άνοιγμα/εκκίνηση.  
+Το [KDE Plasma Spin](https://fedoraproject.org/spins/kde/?rel=iosifidis.gr){:target="_blank"} του Fedora αφήνει ανέπαφες τις περισσότερες προεπιλογές του KDE, αλλάζοντας μόνο την ταπετσαρία και το εικονίδιο εκκίνησης εφαρμογών και επιτρέποντας το διπλό κλικ για άνοιγμα/εκκίνηση.  
   
-Λήψη: [Fedora KDE Plasma Desktop Spin](https://fedoraproject.org/spins/kde/download/?rel=iosifidis.gr) (δωρεάν & ανοιχτού κώδικα)  
+Λήψη: [Fedora KDE Plasma Desktop Spin](https://fedoraproject.org/spins/kde/download/?rel=iosifidis.gr){:target="_blank"} (δωρεάν & ανοιχτού κώδικα)  
   
 ### 2\. XFCE Desktop
 
 ![Fedora XFCE](/post_images/fedora/Fedora-XFCE.png "Fedora XFCE")
 
-Το [Fedora XFCE Spin](https://fedoraproject.org/spins/xfce/?rel=iosifidis.gr) χρησιμοποιεί την παραδοσιακή διάταξη διεπαφής τύπου BSD/Mac. Φαίνεται πολύ ωραίο για ένα ελαφρύ περιβάλλον επιφάνειας εργασίας.  
+Το [Fedora XFCE Spin](https://fedoraproject.org/spins/xfce/?rel=iosifidis.gr){:target="_blank"} χρησιμοποιεί την παραδοσιακή διάταξη διεπαφής τύπου BSD/Mac. Φαίνεται πολύ ωραίο για ένα ελαφρύ περιβάλλον επιφάνειας εργασίας.  
   
-Λήψη: [Fedora XFCE Desktop Spin](https://fedoraproject.org/spins/xfce/download/?rel=iosifidis.gr) (δωρεάν & ανοιχτού κώδικα)  
+Λήψη: [Fedora XFCE Desktop Spin](https://fedoraproject.org/spins/xfce/download/?rel=iosifidis.gr){:target="_blank"} (δωρεάν & ανοιχτού κώδικα)  
   
 ### 3\. Cinnamon Desktop
 
 ![Fedora Cinnamon](/post_images/fedora/Fedora-Cinnamon.png "Fedora Cinnamon")
 
-Παραδόξως, το Fedora προσφέρει το [Cinnamon](https://fedoraproject.org/spins/cinnamon/?rel=iosifidis.gr), ένα προϊόν του Linux Mint.  
+Παραδόξως, το Fedora προσφέρει το [Cinnamon](https://fedoraproject.org/spins/cinnamon/?rel=iosifidis.gr){:target="_blank"}, ένα προϊόν του Linux Mint.  
   
 Εδώ το Cinnamon διαθέτει την επωνυμία Fedora, μπλε χρώμα με έμφαση, λεπτή γραμμή εργασιών και λείπει κυρίως τα XApps του Mint. Παρά αυτές τις αλλαγές, είναι αναζωογονητικό να βλέπεις το Cinnamon να χρησιμοποιείται διαφορετικά από ό,τι στο Linux Mint.  
   
-Λήψη: [Fedora Cinnamon Desktop Spin](https://fedoraproject.org/spins/cinnamon/download/?rel=iosifidis.gr) (δωρεάν & ανοιχτού κώδικα)  
+Λήψη: [Fedora Cinnamon Desktop Spin](https://fedoraproject.org/spins/cinnamon/download/?rel=iosifidis.gr){:target="_blank"} (δωρεάν & ανοιχτού κώδικα)  
   
 ### 4\. MATE-Compiz Desktop
 
 ![Fedora MATE-Compiz](/post_images/fedora/Fedora-MATE.png "Fedora MATE-Compiz")
 
-Κολλημένοι στο χρόνο; Το [Fedora MATE-Compiz Spin](https://fedoraproject.org/spins/mate/?rel=iosifidis.gr) είναι τέλειο για όσους λαχταρούν τις μέρες δόξας του GNOME 2 Ubuntu και τα εντυπωσιακά εφέ επιφάνειας εργασίας.  
+Κολλημένοι στο χρόνο; Το [Fedora MATE-Compiz Spin](https://fedoraproject.org/spins/mate/?rel=iosifidis.gr){:target="_blank"} είναι τέλειο για όσους λαχταρούν τις μέρες δόξας του GNOME 2 Ubuntu και τα εντυπωσιακά εφέ επιφάνειας εργασίας.  
   
-Λήψη: [Fedora MATE-Compiz Desktop Spin](https://fedoraproject.org/spins/mate/download/?rel=iosifidis.gr) (δωρεάν & ανοιχτού κώδικα)  
+Λήψη: [Fedora MATE-Compiz Desktop Spin](https://fedoraproject.org/spins/mate/download/?rel=iosifidis.gr){:target="_blank"} (δωρεάν & ανοιχτού κώδικα)  
   
 ### 5\. i3 Tiling Window Manager
 
 ![Fedora i3 Tiling Window Manager](/post_images/fedora/Fedora-i3-WM.png "Fedora i3 Tiling Window Manager")
 
-Ναι, το Fedora έχει ακόμη και ένα [tiling window manager spin](https://fedoraproject.org/spins/i3/?rel=iosifidis.gr), οπότε τώρα μπορείτε και εσείς να δημοσιεύετε στο [r/unixporn](https://www.reddit.com/r/unixporn/?rel=iosifidis.gr). Πέρα από την πλάκα, το i3 είναι ένα από τα πιο δημοφιλή WM για πλακάκια και ένα τέλειο σημείο εκκίνησης για να μπείτε στον κόσμο των tiling WM που βασίζονται σε πληκτρολόγιο.  
+Ναι, το Fedora έχει ακόμη και ένα [tiling window manager spin](https://fedoraproject.org/spins/i3/?rel=iosifidis.gr){:target="_blank"}, οπότε τώρα μπορείτε και εσείς να δημοσιεύετε στο [r/unixporn](https://www.reddit.com/r/unixporn/?rel=iosifidis.gr). Πέρα από την πλάκα, το i3 είναι ένα από τα πιο δημοφιλή WM για πλακάκια και ένα τέλειο σημείο εκκίνησης για να μπείτε στον κόσμο των tiling WM που βασίζονται σε πληκτρολόγιο.  
   
 Αυτή η κατηγορία υπολογιστών προσφέρει ανώτερη απόδοση οθόνης, χαμηλότερο κόστος συστήματος και αυξημένη ταχύτητα αλληλεπίδρασης με τον χρήστη μέσω συντομεύσεων που βασίζονται στο πληκτρολόγιο.  
   
-Λήψη: [Fedora i3 Tiling WM Spin](https://fedoraproject.org/spins/i3/download/?rel=iosifidis.gr) (δωρεάν & ανοιχτού κώδικα)  
+Λήψη: [Fedora i3 Tiling WM Spin](https://fedoraproject.org/spins/i3/download/?rel=iosifidis.gr){:target="_blank"} (δωρεάν & ανοιχτού κώδικα)  
   
 ### 6\. Sway Tiling Window Manager
 
 ![Fedora Sway Tiling Window Manager](/post_images/fedora/Fedora-sway.jpg "Fedora Sway Tiling Window Manager")
 
-Το [Fedora Sway Spin](https://fedoraproject.org/spins/sway/?rel=iosifidis.gr) παρέχει τον δημοφιλές διαχειριστή παραθύρου πλακιδίων Sway. Κάνει το Sway προσβάσιμο και ελκυστικό τόσο για αρχάριους όσο και για προχωρημένους χρήστες που προτιμούν να μην χρησιμοποιούν το ποντίκι, την επιφάνεια αφής ή άλλη συσκευή κατάδειξης για να αλληλεπιδρούν με το περιβάλλον τους. Διαθέτει ελαφριές εφαρμογές για περιήγηση στον Ιστό, επεξεργασία κειμένου και αναπαραγωγή πολυμέσων, το Fedora Sway Spin προσφέρει μια ολοκληρωμένη εμπειρία με ένα μινιμαλιστικό περιβάλλον χρήστη.  
+Το [Fedora Sway Spin](https://fedoraproject.org/spins/sway/?rel=iosifidis.gr){:target="_blank"} παρέχει τον δημοφιλές διαχειριστή παραθύρου πλακιδίων Sway. Κάνει το Sway προσβάσιμο και ελκυστικό τόσο για αρχάριους όσο και για προχωρημένους χρήστες που προτιμούν να μην χρησιμοποιούν το ποντίκι, την επιφάνεια αφής ή άλλη συσκευή κατάδειξης για να αλληλεπιδρούν με το περιβάλλον τους. Διαθέτει ελαφριές εφαρμογές για περιήγηση στον Ιστό, επεξεργασία κειμένου και αναπαραγωγή πολυμέσων, το Fedora Sway Spin προσφέρει μια ολοκληρωμένη εμπειρία με ένα μινιμαλιστικό περιβάλλον χρήστη.  
   
-Λήψη: [Fedora Sway Tiling WM Spin](https://fedoraproject.org/spins/sway/download/?rel=iosifidis.gr) (δωρεάν & ανοιχτού κώδικα)  
+Λήψη: [Fedora Sway Tiling WM Spin](https://fedoraproject.org/spins/sway/download/?rel=iosifidis.gr){:target="_blank"} (δωρεάν & ανοιχτού κώδικα)  
   
 ### 7\. LXQt Desktop
 
 ![Fedora LXQt Spin](/post_images/fedora/Fedora-LXQT.png "Fedora LXQt Spin")
 
-Χωρίς να σταματά στα "μεγάλα τρία" περιβάλλοντα επιφάνειας εργασίας, το [Fedora προσφέρει επίσης το LXQt](https://fedoraproject.org/spins/lxqt/?rel=iosifidis.gr). Αυτή η εναλλακτική λύση του LXDE που βασίζεται σε Qt παρέχει μια απλή εμπειρία που μοιάζει με τα Windows XP.  
+Χωρίς να σταματά στα "μεγάλα τρία" περιβάλλοντα επιφάνειας εργασίας, το [Fedora προσφέρει επίσης το LXQt](https://fedoraproject.org/spins/lxqt/?rel=iosifidis.gr){:target="_blank"}. Αυτή η εναλλακτική λύση του LXDE που βασίζεται σε Qt παρέχει μια απλή εμπειρία που μοιάζει με τα Windows XP.  
   
-Λήψη: [Fedora LXQt Desktop Spin](https://fedoraproject.org/spins/lxqt/download/?rel=iosifidis.gr) (δωρεάν & ανοιχτού κώδικα)  
+Λήψη: [Fedora LXQt Desktop Spin](https://fedoraproject.org/spins/lxqt/download/?rel=iosifidis.gr){:target="_blank"} (δωρεάν & ανοιχτού κώδικα)  
   
 ### 8\. Budgie Desktop
 
 ![Fedora Budgie](/post_images/fedora/Fedora-Budgie.jpg "Fedora Budgie")
 
-Το [Fedora Budgie Spin](https://fedoraproject.org/spins/budgie/?rel=iosifidis.gr) παρουσιάζει το Budgie Desktop, μια πλούσια σε χαρακτηριστικά, μοντέρνα επιφάνεια εργασίας. Αυτό το Spin έχει σχεδιαστεί για να ευθυγραμμίζεται στενά με το upstream Budgie Desktop, παρέχοντας μια εμπειρία σχεδόν βανίλια με ένα επιλεγμένο σύνολο προεπιλεγμένων εφαρμογών που ταιριάζουν καλύτερα με το Budgie.  
+Το [Fedora Budgie Spin](https://fedoraproject.org/spins/budgie/?rel=iosifidis.gr){:target="_blank"} παρουσιάζει το Budgie Desktop, μια πλούσια σε χαρακτηριστικά, μοντέρνα επιφάνεια εργασίας. Αυτό το Spin έχει σχεδιαστεί για να ευθυγραμμίζεται στενά με το upstream Budgie Desktop, παρέχοντας μια εμπειρία σχεδόν βανίλια με ένα επιλεγμένο σύνολο προεπιλεγμένων εφαρμογών που ταιριάζουν καλύτερα με το Budgie.  
   
-Λήψη: [Fedora Budgie Desktop Spin](https://fedoraproject.org/spins/budgie/download/?rel=iosifidis.gr) (δωρεάν & ανοιχτού κώδικα)  
+Λήψη: [Fedora Budgie Desktop Spin](https://fedoraproject.org/spins/budgie/download/?rel=iosifidis.gr){:target="_blank"} (δωρεάν & ανοιχτού κώδικα)  
   
 ### 9\. SOAS (Sugar on a Stick)
 
 ![Fedora SOAS (Sugar on a Stick)](/post_images/fedora/Fedora-SOAS.jpg "Fedora SOAS (Sugar on a Stick)")
 
-Αφού εξαντλήθηκαν όλα τα περιβάλλοντα επιφάνειας εργασίας που έχετε ακούσει, το Fedora συνεχίζει να εντυπωσιάζει με το [Fedora spin SOAS](https://fedoraproject.org/spins/soas/?rel=iosifidis.gr). Ίσως το γνωρίζετε καλύτερα ως Sugar on a Stick, το οποίο όπως υποδηλώνει το όνομά του είναι Sugar on a bootable USB stick.  
+Αφού εξαντλήθηκαν όλα τα περιβάλλοντα επιφάνειας εργασίας που έχετε ακούσει, το Fedora συνεχίζει να εντυπωσιάζει με το [Fedora spin SOAS](https://fedoraproject.org/spins/soas/?rel=iosifidis.gr){:target="_blank"}. Ίσως το γνωρίζετε καλύτερα ως Sugar on a Stick, το οποίο όπως υποδηλώνει το όνομά του είναι Sugar on a bootable USB stick.  
   
-Το περιβάλλον επιτραπέζιου υπολογιστή πρώιμης εκμάθησης έγινε ευρέως γνωστό όταν επιλέχθηκε ως το λειτουργικό σύστημα για το έργο [OLPC (Ένας φορητός υπολογιστής ανά παιδί)](https://laptop.org/?rel=iosifidis.gr). Λήψη: [Fedora SOAS Spin](https://fedoraproject.org/spins/soas/download/?rel=iosifidis.gr) (δωρεάν & ανοιχτού κώδικα)  
+Το περιβάλλον επιτραπέζιου υπολογιστή πρώιμης εκμάθησης έγινε ευρέως γνωστό όταν επιλέχθηκε ως το λειτουργικό σύστημα για το έργο [OLPC (Ένας φορητός υπολογιστής ανά παιδί)](https://laptop.org/?rel=iosifidis.gr){:target="_blank"}. Λήψη: [Fedora SOAS Spin](https://fedoraproject.org/spins/soas/download/?rel=iosifidis.gr){:target="_blank"} (δωρεάν & ανοιχτού κώδικα)  
   
 ### 10\. Phosh
 
 ![Fedora Phosh](/post_images/fedora/Fedora-phosh.jpg "Fedora Phosh")
 
-Το [Phosh spin](https://fedoraproject.org/spins/phosh/?rel=iosifidis.gr) παρέχει μια φιλική διεπαφή προς κινητά, βασισμένη στην αφή της οθόνης. Είναι κατασκευασμένο για φορητές συσκευές όπως τηλέφωνα και tablet, αλλά και φορητούς υπολογιστές με οθόνες αφής.  
+Το [Phosh spin](https://fedoraproject.org/spins/phosh/?rel=iosifidis.gr){:target="_blank"} παρέχει μια φιλική διεπαφή προς κινητά, βασισμένη στην αφή της οθόνης. Είναι κατασκευασμένο για φορητές συσκευές όπως τηλέφωνα και tablet, αλλά και φορητούς υπολογιστές με οθόνες αφής.  
   
 Το Phosh σάς επιτρέπει να χρησιμοποιείτε μια συσκευή που βασίζεται στην αφή για γρήγορη εκκίνηση και εναλλαγή εφαρμογών, καθώς και εύχρηστες ρυθμίσεις όπως το επίπεδο της μπαταρίας και η ισχύς του σήματος χαμηλής τάσης.  
   
 Πίσω από αυτήν την επιφάνεια εργασίας βρίσκεται ολόκληρη η συλλογή πακέτων Fedora τα οποία μπορείτε να εγκαταστήσετε και να χρησιμοποιήσετε όπως σας ταιριάζει. Το Phosh είναι χτισμένο σε wayland και άλλες σύγχρονες τεχνολογίες επιτραπέζιων υπολογιστών gnome.  
   
-Λήψη: [Fedora Phosh Spin](https://fedoraproject.org/spins/phosh/download/?rel=iosifidis.gr) (δωρεάν & ανοιχτού κώδικα)  
+Λήψη: [Fedora Phosh Spin](https://fedoraproject.org/spins/phosh/download/?rel=iosifidis.gr){:target="_blank"} (δωρεάν & ανοιχτού κώδικα)  
   
 ## Σε ποιον απευθύνεται το Fedora;
 
@@ -189,4 +189,4 @@ twitter_text: 'Τι είναι το Fedora; Όλα όσα πρέπει να γν
 Εάν είστε λάτρης του GNOME, το Fedora είναι η μόνη μεγάλη διανομή που στέλνει μια ενημερωμένη έκδοση του GNOME vanilla. Οι χρήστες Mac και οι νεότεροι που μεγάλωσαν με κινητές συσκευές μπορεί επίσης να εκτιμήσουν το GNOME. Και οι χρήστες φορητών υπολογιστών θα ερωτευτούν τις χειρονομίες της επιφάνειας αφής Wayland για έλεγχο του χώρου εργασίας.
 
 Αρχική δημοσίευση:  
-[https://eiosifidis.blogspot.com/2023/08/ti-einai-to-fedora-ti-prepei-na-gnorizete.html](hhttps://eiosifidis.blogspot.com/2023/08/ti-einai-to-fedora-ti-prepei-na-gnorizete.html)
+[https://eiosifidis.blogspot.com/2023/08/ti-einai-to-fedora-ti-prepei-na-gnorizete.html](hhttps://eiosifidis.blogspot.com/2023/08/ti-einai-to-fedora-ti-prepei-na-gnorizete.html){:target="_blank"}
