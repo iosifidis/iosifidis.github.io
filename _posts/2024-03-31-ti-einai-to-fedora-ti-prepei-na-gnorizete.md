@@ -88,7 +88,7 @@ twitter_text: 'Τι είναι το Fedora; Όλα όσα πρέπει να γν
 
 Ο δημοφιλής διαχειριστής παραθύρων πλακιδίων Sway προσφέρεται από τη [Fedora Sericea](https://fedoraproject.org/sericea/?rel=iosifidis.gr){:target="_blank"} με "αμετάβλητο" τρόπο. Κάνει το Sway προσιτό και ενδιαφέρον τόσο στους νέους όσο και στους έμπειρους χρήστες που προτιμούν να μην αλληλεπιδρούν με το περιβάλλον τους μέσω ποντικιού, επιφάνειας αφής ή άλλης συσκευής κατάδειξης. Το Fedora Sericea προσφέρει μια ολοκληρωμένη εμπειρία με μια απλή διεπαφή χρήστη και περιλαμβάνει ελαφριές εφαρμογές για περιήγηση στο web, σύνταξη κειμένου και αναπαραγωγή πολυμέσων.  
   
-Λήψη: [Fedora Kinoite](https://fedoraproject.org/sericea/download/?rel=iosifidis.gr){:target="_blank"} (δωρεάν & ανοιχτού κώδικα)  
+Λήψη: [Fedora Sericea](https://fedoraproject.org/sericea/download/?rel=iosifidis.gr){:target="_blank"} (δωρεάν & ανοιχτού κώδικα)  
   
 ## Fedora Spins
 
