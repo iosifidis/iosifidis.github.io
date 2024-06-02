@@ -14,7 +14,7 @@ facebook_username: eiosifidis
 instagram_username: e.iosifidis
 twitter_username: nexteiosifidis
 github_username:  iosifidis
-disqus_username: iblog-eiosifidis
+#disqus_username: iblog-eiosifidis
 
 # Build settings
 markdown: kramdown
