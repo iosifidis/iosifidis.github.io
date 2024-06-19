@@ -45,7 +45,7 @@ zypper ar --refresh -p 70 http://ftp.gwdg.de/pub/linux/misc/packman/suse/openSUS
 [Forums.o.o](https://forums.opensuse.org/tag/slowroll){:target="_blank"}   
 [Mailing-list](https://lists.opensuse.org/archives/search?mlist=factory%40lists.opensuse.org&q=Slowroll){:target="_blank"}   
 [Wiki](https://en.opensuse.org/openSUSE:Slowroll){:target="_blank"}   
-Bugzilla TBD{:target="_blank"}
+Bugzilla TBD   
 
 
 # Ανάπτυξη
