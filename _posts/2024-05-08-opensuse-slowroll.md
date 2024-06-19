@@ -20,7 +20,7 @@ twitter_text: 'Τι είναι η openSUSE Slowroll; Πως να την εγκα
 
 ![Slowroll vs Tumbleweed](/post_images/opensuse/slowroll/Slowroll-vs-tumbleweed-updates.png "Slowroll  vs Tumbleweed"){:width="320px"}
 
-#Εγκατάσταση - Χρήση
+# Εγκατάσταση - Χρήση
 
 Για αρχική εγκατάσταση, μπορείτε να χρησιμοποιήσετε το DVD iso από τη διεύθυνση [http://download.opensuse.org/slowroll/iso/](http://download.opensuse.org/slowroll/iso/){:target="_blank"} αλλά να αφήσετε τα διαδικτυακά αποθετήρια απενεργοποιημένα (έτσι δεν τραβάει νεότερα πακέτα Tumbleweed από online repos). Μπορείτε επίσης να μεταβείτε απευθείας από οποιαδήποτε κυκλοφορία Leap ή Tumbleweed στο Slowroll αντικαθιστώντας τα αποθετήρια.
 
