@@ -163,7 +163,7 @@ twitter_text: 'Ubuntu 24.04: Οδηγός εγκατάστασης με τον �
 
 ## Συμβουλές
 
-Εάν αντιμετωπίσετε προβλήματα κατά την εγκατάσταση, μπορείτε να ανατρέξετε στην επίσημη τεκμηρίωση του Ubuntu [https://help.ubuntu.com/lts/ubuntu-help/index.html](https://help.ubuntu.com/lts/ubuntu-help/index.html){:target="_blank"} ή να αναζητήσετε βοήθεια σε [φόρουμ](https://forum.ubuntu-gr.org/){:target="_blank"} της κοινότητας Ubuntu.  
+Εάν αντιμετωπίσετε προβλήματα κατά την εγκατάσταση, μπορείτε να ανατρέξετε στην επίσημη τεκμηρίωση του Ubuntu [https://help.ubuntu.com/lts/ubuntu-help/index.html](https://help.ubuntu.com/lts/ubuntu-help/index.html){:target="_blank"} ή να αναζητήσετε βοήθεια σε [φόρουμ](https://forum.ubuntu-gr.org/) της κοινότητας Ubuntu.  
 Μπορείτε επίσης να εγκαταστήσετε το Ubuntu 24.04 σε μια εικονική μηχανή, εάν θέλετε να το δοκιμάσετε πριν το εγκαταστήσετε στον κύριο υπολογιστή σας.  
   
 Εάν βρήκατε χρήσιμο το άρθρο, μπορείτε να το μοιραστείτε με φίλους σας που θέλουν να εγκαταστήσουν Ubuntu με το νέο εγκαταστάτη.
