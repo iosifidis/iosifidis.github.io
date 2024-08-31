@@ -13,7 +13,7 @@ categories:
 twitter_text: 'Γιατί να επιλέξετε ένα λογισμικό διαχείρισης έργων ανοιχτού κώδικα;'
 ---
 
-![COSMIC Logo](/post_images/openproject/openproject.jpeg "COSMIC Logo")
+![Project Management](/post_images/openproject/openproject.jpeg "Project Management"){:width="320px"}
 
 Αναζητάτε λύσεις λογισμικού διαχείρισης έργων και συγκρίνετε διάφορες επιλογές για να επιλέξετε την καταλληλότερη; Θα έχετε μπλεχτεί σε λέξεις όπως [Jira](https://www.atlassian.com/software/jira), [Trello](https://trello.com/), [Asana](https://asana.com/) κα. Το [OpenProject](https://www.openproject.org/) είναι η κορυφαία λύση ανοιχτού κώδικα στη διαχείριση έργων, που υποστηρίζει τη διαδικασία διαχείρισης καθ' όλη τη διάρκεια του κύκλου ζωής ενός έργου.  
   
