@@ -189,4 +189,4 @@ twitter_text: 'Τι είναι το Fedora; Όλα όσα πρέπει να γν
 Εάν είστε λάτρης του GNOME, το Fedora είναι η μόνη μεγάλη διανομή που στέλνει μια ενημερωμένη έκδοση του GNOME vanilla. Οι χρήστες Mac και οι νεότεροι που μεγάλωσαν με κινητές συσκευές μπορεί επίσης να εκτιμήσουν το GNOME. Και οι χρήστες φορητών υπολογιστών θα ερωτευτούν τις χειρονομίες της επιφάνειας αφής Wayland για έλεγχο του χώρου εργασίας.
 
 Αρχική δημοσίευση:  
-[https://eiosifidis.blogspot.com/2023/08/ti-einai-to-fedora-ti-prepei-na-gnorizete.html](hhttps://eiosifidis.blogspot.com/2023/08/ti-einai-to-fedora-ti-prepei-na-gnorizete.html){:target="_blank"}
+[https://eiosifidis.blogspot.com/2023/08/ti-einai-to-fedora-ti-prepei-na-gnorizete.html](https://eiosifidis.blogspot.com/2023/08/ti-einai-to-fedora-ti-prepei-na-gnorizete.html){:target="_blank"}
