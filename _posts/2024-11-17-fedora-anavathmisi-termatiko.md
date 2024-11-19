@@ -287,7 +287,6 @@ sudo fixfiles -B onboot
   
 Η διαδικασία εκκίνησης πιθανότατα θα διαρκέσει πολύ, καθώς ελέγχει και διορθώνει τις ετικέτες δικαιωμάτων SELinux σε όλα τα αρχεία στο σύστημά σας.  
   
-
 ## Περισσότερες πληροφορίες:
 
 [https://docs.fedoraproject.org/en-US/quick-docs/upgrading-fedora-offline/](https://docs.fedoraproject.org/en-US/quick-docs/upgrading-fedora-offline/)
