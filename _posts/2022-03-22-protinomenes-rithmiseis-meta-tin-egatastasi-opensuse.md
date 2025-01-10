@@ -94,13 +94,75 @@ projectlibre thunderbolt-user-space bolt xsane hplip-sane breeze5-cursors gnome-
 Επίσης εάν δεν τα χρειάζεστε όλα, μην τα εγκαθιστάτε.
 
 {% highlight ruby %}
-flatpak install com.anydesk.Anydesk com.axosoft.GitKraken com.discordapp.Discord org.onlyoffice.desktopeditors \
-com.github.junrrein.PDFSlicer com.microsoft.Teams com.slack.Slack org.codeblocks.codeblocks \
-org.telegram.desktop us.zoom.Zoom com.github.xournalpp.xournalpp com.uploadedlobster.peek \
-org.wireshark.Wireshark com.stremio.Stremio io.github.seadve.Kooha org.raspberrypi.rpi-imager \
-org.eclipse.Java com.google.AndroidStudio com.notepadqq.Notepadqq io.github.liberodark.OpenDrive \
-dev.Cogitri.Health com.jgraph.drawio.desktop org.blender.Blender com.github.johnfactotum.Foliate \
-org.zotero.Zotero net.codeindustry.MasterPDFEditor com.xnview.XnSketch com.authy.Authy org.nickvision.tubeconverter.
+### GIT
+**Gitkraken**: flatpak install com.axosoft.GitKraken 
+
+**Gittyup**: flatpak install com.github.Murmele.Gittyup
+
+**Gitnuro**: flatpak install com.jetpackduba.Gitnuro
+
+### PDF - OFFICE
+**PDFSlicer**: flatpak install com.github.junrrein.PDFSlicer 
+
+**MasterPDFEditor** (edit properties): flatpak install net.codeindustry.MasterPDFEditor 
+
+**draw.io** (Create and share diagrams): flatpak install com.jgraph.drawio.desktop 
+
+**ONLYOFFICE**: flatpak install org.onlyoffice.desktopeditors
+
+**Zotero**: flatpak install org.zotero.Zotero
+
+**Xournal++** (Take handwritten notes): flatpak install com.github.xournalpp.xournalpp 
+
+**Foliate** (Ανάγνωση ηλεκτρονικών βιβλίων με στυλ): flatpak install com.github.johnfactotum.Foliate
+
+### CHAT
+**MS Teams**: flatpak install com.microsoft.Teams 
+
+**SLACK**: flatpak install com.slack.Slack 
+
+**Discord**: flatpak install com.discordapp.Discord 
+
+**Telegram**: flatpak install org.telegram.desktop 
+
+**Zoom**: flatpak install us.zoom.Zoom 
+
+### PROGRAMMING
+**CodeBlocks**: flatpak install org.codeblocks.codeblocks
+
+**Eclipse**: flatpak install org.eclipse.Java 
+
+**Android Studio**: flatpak install com.google.AndroidStudio
+
+**Notepadqq** (An advanced text editor): flatpak install com.notepadqq.Notepadqq 
+
+### MULTIMEDIA
+**VLC** (VLC media player, the open-source multimedia player): flatpak install org.videolan.VLC
+
+**Newpipe** (Free and lightweight YouTube frontend for Android): flatpak install net.newpipe.NewPipe
+
+**Tubeconverter** (Download web video and audio): flatpak install org.nickvision.tubeconverter
+
+**Peek** (Simple screen recorder with an easy to use interface): flatpak install com.uploadedlobster.peek
+
+**Kooha** (Κομψή καταγραφή οθόνης): flatpak install io.github.seadve.Kooha 
+
+**Stremio**: flatpak install com.stremio.Stremio
+
+**XnSketch** (Turn photos into sketch images): flatpak install com.xnview.XnSketch 
+
+**Blender**: flatpak install org.blender.Blender 
+
+### MISC
+**Anydesk** (Connect to a computer remotely): flatpak install com.anydesk.Anydesk 
+
+**Celeste** (sync your cloud files - Google, Nextcloud κλπ): flatpak install com.hunterwittenborn.Celeste
+
+**Wireshark** (Network protocol analyzer):flatpak install org.wireshark.Wireshark  
+
+**Raspberry Pi Imager** (Raspberry Pi imaging utility): flatpak install org.raspberrypi.rpi-imager
+
+**Health** (Track your fitness goals): flatpak install dev.Cogitri.Health 
 {% endhighlight %}
 
 Προσοχή στο discord, για να μπορείτε να στέλνετε αρχεία από το home, πρέπει να δώσετε την εντολή:
