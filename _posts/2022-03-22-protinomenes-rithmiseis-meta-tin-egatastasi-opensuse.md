@@ -95,74 +95,93 @@ projectlibre thunderbolt-user-space bolt xsane hplip-sane breeze5-cursors gnome-
 
 {% highlight ruby %}
 ### GIT
-**Gitkraken**: flatpak install com.axosoft.GitKraken 
+- Gitkraken: flatpak install com.axosoft.GitKraken 
 
-**Gittyup**: flatpak install com.github.Murmele.Gittyup
+- Gittyup: flatpak install com.github.Murmele.Gittyup
 
-**Gitnuro**: flatpak install com.jetpackduba.Gitnuro
+- Gitnuro: flatpak install com.jetpackduba.Gitnuro
 
 ### PDF - OFFICE
-**PDFSlicer**: flatpak install com.github.junrrein.PDFSlicer 
+- PDFSlicer: flatpak install com.github.junrrein.PDFSlicer 
 
-**MasterPDFEditor** (edit properties): flatpak install net.codeindustry.MasterPDFEditor 
+- MasterPDFEditor (edit PDF properties): flatpak install net.codeindustry.MasterPDFEditor 
 
-**draw.io** (Create and share diagrams): flatpak install com.jgraph.drawio.desktop 
+- PDFedit (PDF editor with ability to browse/edit the tree of raw pdf objects): flatpak install  net.sourceforge.Pdfedit
 
-**ONLYOFFICE**: flatpak install org.onlyoffice.desktopeditors
+- draw.io (Create and share diagrams): flatpak install com.jgraph.drawio.desktop 
 
-**Zotero**: flatpak install org.zotero.Zotero
+- ONLYOFFICE: flatpak install org.onlyoffice.desktopeditors
 
-**Xournal++** (Take handwritten notes): flatpak install com.github.xournalpp.xournalpp 
+- Zotero (Collect, organize, cite, and share research): flatpak install org.zotero.Zotero
 
-**Foliate** (Ανάγνωση ηλεκτρονικών βιβλίων με στυλ): flatpak install com.github.johnfactotum.Foliate
+- Xournal++ (Take handwritten notes): flatpak install com.github.xournalpp.xournalpp 
+
+- Foliate (Ανάγνωση ηλεκτρονικών βιβλίων με στυλ): flatpak install com.github.johnfactotum.Foliate
 
 ### CHAT
-**MS Teams**: flatpak install com.microsoft.Teams 
+- MS Teams: flatpak install com.microsoft.Teams 
 
-**SLACK**: flatpak install com.slack.Slack 
+- SLACK: flatpak install com.slack.Slack 
 
-**Discord**: flatpak install com.discordapp.Discord 
+- Discord: flatpak install com.discordapp.Discord 
 
-**Telegram**: flatpak install org.telegram.desktop 
+- Telegram: flatpak install org.telegram.desktop 
 
-**Zoom**: flatpak install us.zoom.Zoom 
+- Zoom: flatpak install us.zoom.Zoom 
+
+- Viber (Send free messages and make free calls): flatpak install com.viber.Viber
 
 ### PROGRAMMING
-**CodeBlocks**: flatpak install org.codeblocks.codeblocks
+- CodeBlocks: flatpak install org.codeblocks.codeblocks
 
-**Eclipse**: flatpak install org.eclipse.Java 
+- Eclipse: flatpak install org.eclipse.Java 
 
-**Android Studio**: flatpak install com.google.AndroidStudio
+- Postman (Platform for building and using APIs): flatpak install com.getpostman.Postman
 
-**Notepadqq** (An advanced text editor): flatpak install com.notepadqq.Notepadqq 
+- Android Studio: flatpak install com.google.AndroidStudio
+
+- Notepadqq (An advanced text editor): flatpak install com.notepadqq.Notepadqq 
+
+- Apache JMeter (Load testing tool): flatpak install org.apache.jmeter
+
+- Podman Desktop (Manage Podman and other container engines from a single UI): flatpak install io.podman_desktop.PodmanDesktop
 
 ### MULTIMEDIA
-**VLC** (VLC media player, the open-source multimedia player): flatpak install org.videolan.VLC
+- VLC (VLC media player, the open-source multimedia player): flatpak install org.videolan.VLC
 
-**Newpipe** (Free and lightweight YouTube frontend for Android): flatpak install net.newpipe.NewPipe
+- Newpipe (Free and lightweight YouTube frontend for Android): flatpak install net.newpipe.NewPipe
 
-**Tubeconverter** (Download web video and audio): flatpak install org.nickvision.tubeconverter
+- Tubeconverter (Download web video and audio): flatpak install org.nickvision.tubeconverter
 
-**Peek** (Simple screen recorder with an easy to use interface): flatpak install com.uploadedlobster.peek
+- Peek (Simple screen recorder with an easy to use interface): flatpak install com.uploadedlobster.peek
 
-**Kooha** (Κομψή καταγραφή οθόνης): flatpak install io.github.seadve.Kooha 
+- Kooha (Κομψή καταγραφή οθόνης): flatpak install io.github.seadve.Kooha 
 
-**Stremio**: flatpak install com.stremio.Stremio
+- Stremio: flatpak install com.stremio.Stremio
 
-**XnSketch** (Turn photos into sketch images): flatpak install com.xnview.XnSketch 
+- XnSketch (Turn photos into sketch images): flatpak install com.xnview.XnSketch 
 
-**Blender**: flatpak install org.blender.Blender 
+- Blender: flatpak install org.blender.Blender 
 
 ### MISC
-**Anydesk** (Connect to a computer remotely): flatpak install com.anydesk.Anydesk 
+- Anydesk (Connect to a computer remotely): flatpak install com.anydesk.Anydesk 
 
-**Celeste** (sync your cloud files - Google, Nextcloud κλπ): flatpak install com.hunterwittenborn.Celeste
+- Wireshark (Network protocol analyzer):flatpak install org.wireshark.Wireshark
 
-**Wireshark** (Network protocol analyzer):flatpak install org.wireshark.Wireshark  
+- Raspberry Pi Imager (Raspberry Pi imaging utility): flatpak install org.raspberrypi.rpi-imager
 
-**Raspberry Pi Imager** (Raspberry Pi imaging utility): flatpak install org.raspberrypi.rpi-imager
+- Health (Track your fitness goals): flatpak install dev.Cogitri.Health 
 
-**Health** (Track your fitness goals): flatpak install dev.Cogitri.Health 
+- FreeFileSync (Visual folder comparison and synchronization): flatpak install org.freefilesync.FreeFileSync
+
+- Celeste (sync your cloud files - Google, Nextcloud κλπ): flatpak install com.hunterwittenborn.Celeste
+
+- File Roller (Ανοίξτε, τροποποιήστε και δημιουργήστε συμπιεσμένα αρχεία) : flatpak install flathub org.gnome.FileRoller
+
+### FLATPAK
+- Flatseal (Διαχείριση δικαιωμάτων Flatpak): flatpak install com.github.tchx84.Flatseal
+
+- Flatsweep (Καθαριστής υπολειπόμενων δεδομένων Flatpak): flatpak install io.github.giantpinkrobots.flatsweep
 {% endhighlight %}
 
 Προσοχή στο discord, για να μπορείτε να στέλνετε αρχεία από το home, πρέπει να δώσετε την εντολή:
