@@ -138,6 +138,8 @@ projectlibre thunderbolt-user-space bolt xsane hplip-sane breeze5-cursors gnome-
 
 - Postman (Platform for building and using APIs): flatpak install com.getpostman.Postman
 
+- DB Browser for SQLite (light GUI editor for SQLite databases): flatpak install org.sqlitebrowser.sqlitebrowser
+
 - Android Studio: flatpak install com.google.AndroidStudio
 
 - Notepadqq (An advanced text editor): flatpak install com.notepadqq.Notepadqq 
