@@ -118,6 +118,8 @@ projectlibre thunderbolt-user-space bolt xsane hplip-sane breeze5-cursors gnome-
 
 - Foliate (Ανάγνωση ηλεκτρονικών βιβλίων με στυλ): flatpak install com.github.johnfactotum.Foliate
 
+- Gaphor (Simple UML and SysML modeling tool): flatpak install org.gaphor.Gaphor
+
 ### CHAT
 - MS Teams: flatpak install com.microsoft.Teams 
 
@@ -179,6 +181,8 @@ projectlibre thunderbolt-user-space bolt xsane hplip-sane breeze5-cursors gnome-
 - Celeste (sync your cloud files - Google, Nextcloud κλπ): flatpak install com.hunterwittenborn.Celeste
 
 - File Roller (Ανοίξτε, τροποποιήστε και δημιουργήστε συμπιεσμένα αρχεία) : flatpak install flathub org.gnome.FileRoller
+
+- GPT4ALL (Open-source assistant): flatpak install io.gpt4all.gpt4all
 
 ### FLATPAK
 - Flatseal (Διαχείριση δικαιωμάτων Flatpak): flatpak install com.github.tchx84.Flatseal
