@@ -150,6 +150,8 @@ projectlibre thunderbolt-user-space bolt xsane hplip-sane breeze5-cursors gnome-
 
 - Podman Desktop (Manage Podman and other container engines from a single UI): flatpak install io.podman_desktop.PodmanDesktop
 
+- JupyterLab Desktop (JupyterLab desktop application, based on Electron): flatpak install org.jupyter.JupyterLab
+
 ### MULTIMEDIA
 - VLC (VLC media player, the open-source multimedia player): flatpak install org.videolan.VLC
 
