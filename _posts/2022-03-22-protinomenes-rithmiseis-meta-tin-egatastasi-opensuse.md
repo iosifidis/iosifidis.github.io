@@ -133,6 +133,8 @@ projectlibre thunderbolt-user-space bolt xsane hplip-sane breeze5-cursors gnome-
 
 - Viber (Send free messages and make free calls): flatpak install com.viber.Viber
 
+- Element (Secure communications platform built around you): flatpak install im.riot.Riot
+
 ### PROGRAMMING
 - CodeBlocks: flatpak install org.codeblocks.codeblocks
 

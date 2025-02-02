@@ -5,6 +5,8 @@ date: 2024-11-17 12:00:00
 description: Πως μπορείτε να κάνετε αναβάθμιση Fedora από την μια έκδοση στην επόμενη με την χρήση του τερματικού.
 tags:
 - fedora
+- terminal
+- αναβάθμιση
 categories:
 - Greek
 - FEDORA
