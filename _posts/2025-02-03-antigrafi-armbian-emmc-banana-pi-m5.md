@@ -72,7 +72,7 @@ sudo dd if=armbian_bookworm_cinnamon.img of=mmcblk1 bs=10M status=noxfer
 
 Το Banana-Pi BPi-M5 εκτελείται τώρα από το χώρο αποθήκευσης **eMMC**.
 
-Η εκτέλεση του "_fdisk -l_" για άλλη μια φορά θα δείξει επίσης ότι το Banana-Pi BPi-M5 εκτελείται από το eMMc.
+Η εκτέλεση του _fdisk -l_ για άλλη μια φορά θα δείξει επίσης ότι το Banana-Pi BPi-M5 εκτελείται από το eMMc.
 
 ![Banana Pi M5 fdisk](/post_images/bananapi/m5/bpi-mi5-fdisk.jpg "Banana Pi M5 fdisk")
 
