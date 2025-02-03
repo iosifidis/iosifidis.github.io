@@ -13,7 +13,7 @@ categories:
 twitter_text: 'Αντιγραφή Armbian στο eMMC του Banana-Pi BPi-M5'
 ---
 
-![Banana Pi M5](/post_images/bananapi/m5/Banana_Pi_BPI-M5.jpg "Banana Pi M5"){:width="320px"}
+![Banana Pi M5](/post_images/bananapi/m5/Banana_Pi_BPI-M5.jpg "Banana Pi M5")
 
 Το [Banana-Pi BPi-M5](https://wiki.banana-pi.org/Banana_Pi_BPI-M5?rel=iosifidis.gr) συνοδεύεται από 16 GB ενσωματωμένης κάρτας πολυμέσων (eMMC). Το eMMC είναι χώρος αποθήκευσης που αποτελείται από μνήμη flash NAND και έναν απλό ελεγκτή αποθήκευσης. Επιπλέον, είναι εξαιρετικά γρήγορο.
 
@@ -68,13 +68,13 @@ sudo dd if=armbian_bookworm_cinnamon.img of=mmcblk1 bs=10M status=noxfer
 
 Μόλις γίνει αυτό. Απενεργοποιήστε το BPi-M5 και αφαιρέστε την κάρτα SD.
 
-[![Banana Pi M5](/post_images/bananapi/m5/bpi-mi5-ssh.jpg "Banana Pi M5")
+![Banana Pi M5](/post_images/bananapi/m5/bpi-mi5-ssh.jpg "Banana Pi M5")
 
 Το Banana-Pi BPi-M5 εκτελείται τώρα από το χώρο αποθήκευσης **eMMC**.
 
 Η εκτέλεση του "_fdisk -l_" για άλλη μια φορά θα δείξει επίσης ότι το Banana-Pi BPi-M5 εκτελείται από το eMMc.
 
-[![Banana Pi M5 fdisk](/post_images/bananapi/m5/bpi-mi5-fdisk.jpg "Banana Pi M5 fdisk")
+![Banana Pi M5 fdisk](/post_images/bananapi/m5/bpi-mi5-fdisk.jpg "Banana Pi M5 fdisk")
 
 Είναι ένας απλός και γρήγορος τρόπος για να εκτελείτε το BPi-M5 από το **eMMC**.
 
