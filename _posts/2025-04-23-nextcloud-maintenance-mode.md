@@ -73,7 +73,7 @@ sudo -u www-data php occ maintenance:mode --on
 
     **και αλλάξτε την σε:**
 
-{% endhighlight ruby %}
+{% highlight ruby %}
 'maintenance' => false,
 {% endhighlight %}
 
