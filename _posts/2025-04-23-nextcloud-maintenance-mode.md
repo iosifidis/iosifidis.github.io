@@ -24,15 +24,15 @@ twitter_text: 'Nextcloud: Πώς να διορθώσετε εύκολα το μ�
 
 1.  **Συνδεθείτε στον server σας Nextcloud μέσω SSH** και μεταβείτε στον κεντρικό φάκελο εγκατάστασης του Nextcloud. Για παράδειγμα, αν ο φάκελός σας βρίσκεται στο `/var/www/nextcloud`, χρησιμοποιήστε την εντολή:
 
-    {% highlight ruby %}
-    cd /var/www/nextcloud
-    {% endhighlight %}
+{% highlight ruby %}
+cd /var/www/nextcloud
+{% endhighlight %}
 
 2.  **Εκτελέστε την εντολή για απενεργοποίηση της λειτουργίας συντήρησης:**
 
-    {% highlight ruby %}
-    sudo -u www-data php occ maintenance:mode --off
-    {% endhighlight %}
+{% highlight ruby %}
+sudo -u www-data php occ maintenance:mode --off
+{% endhighlight %}
 
     *Σημείωση:* Αυτή η εντολή υποθέτει ότι ο χρήστης του web server σας είναι `www-data` (συνηθισμένο σε Debian/Ubuntu) και το εκτελέσιμο PHP είναι `php`. Ίσως χρειαστεί να προσαρμόσετε αυτές τις παραμέτρους ανάλογα με τη διαμόρφωση του server σας (π.χ., ο χρήστης μπορεί να είναι `apache`, `httpd` ή άλλος).
 
@@ -40,23 +40,23 @@ twitter_text: 'Nextcloud: Πώς να διορθώσετε εύκολα το μ�
 
 4.  **Εκτελέστε την εντολή αναβάθμισης:**
 
-    {% highlight ruby %}
-    sudo -u www-data php occ upgrade
-    {% endhighlight %}
+{% highlight ruby %}
+sudo -u www-data php occ upgrade
+{% endhighlight %}
 
     Αυτή η εντολή θα προσπαθήσει να διορθώσει τυχόν προβλήματα και να ολοκληρώσει την ενημέρωση. Μπορεί να εμφανιστούν μηνύματα σχετικά με την πρόοδο της διαδικασίας. Περιμένετε μέχρι η εντολή να ολοκληρωθεί επιτυχώς.
 
 5.  **Αν η εντολή `upgrade` αποτύχει ή εμφανίσει σφάλματα,** ίσως χρειαστεί να επέμβετε χειροκίνητα. Για παράδειγμα, αν το σφάλμα αναφέρει πρόβλημα με την εφαρμογή `updatenotification`, μπορείτε να δοκιμάσετε να διαγράψετε τον αντίστοιχο φάκελο (π.χ., `/var/www/nextcloud/apps/updatenotification`) και να εκτελέσετε ξανά την εντολή:
 
-    {% highlight ruby %}
-    occ upgrade
-    {% endhighlight %}
+{% highlight ruby %}
+occ upgrade
+{% endhighlight %}
 
 6.  **Μόλις η εντολή `upgrade` ολοκληρωθεί με επιτυχία,** ελέγξτε ξανά την ιστοσελίδα του Nextcloud. Θα πρέπει να λειτουργεί κανονικά και να εμφανίζει την τελευταία έκδοση. Αν χρειαστεί να κάνετε επιπλέον εργασίες συντήρησης, μπορείτε να ενεργοποιήσετε ξανά τη λειτουργία συντήρησης με την εντολή:
 
-    {% highlight ruby %}
-    sudo -u www-data php occ maintenance:mode --on
-    {% endhighlight %}
+{% highlight ruby %}
+sudo -u www-data php occ maintenance:mode --on
+{% endhighlight %}
 
 ### **Μέθοδος 2: Διόρθωση μέσω cPanel**
 
@@ -67,23 +67,23 @@ twitter_text: 'Nextcloud: Πώς να διορθώσετε εύκολα το μ�
 3.  Βρείτε το αρχείο `config.php`, κάντε **δεξί κλικ** πάνω του και επιλέξτε **Επεξεργασία (Edit)**. Ίσως εμφανιστεί ένα παράθυρο επιβεβαίωσης κωδικοποίησης, πατήστε ξανά **Edit** για να συνεχίσετε.
 4.  Μέσα στο αρχείο, **εντοπίστε τη γραμμή:**
 
-    {% endhighlight ruby %}
-    'maintenance' => true,
-    {% endhighlight %}
+{% highlight ruby %}
+'maintenance' => true,
+{% endhighlight %}
 
     **και αλλάξτε την σε:**
 
-    {% endhighlight ruby %}
-    'maintenance' => false,
-    {% endhighlight %}
+{% endhighlight ruby %}
+'maintenance' => false,
+{% endhighlight %}
 
     **Αποθηκεύστε (Save)** τις αλλαγές και κλείστε τον επεξεργαστή αρχείου.
 5.  **Ελέγξτε αν η ιστοσελίδα του Nextcloud λειτουργεί κανονικά.** Αν όχι, πιθανότατα η ενημέρωση έχει διακοπεί. Μπορείτε να προσπαθήσετε να την ολοκληρώσετε χρησιμοποιώντας το **Terminal (Τερματικό)** που παρέχεται μέσα από το cPanel.
 6.  Ανοίξτε το **Terminal** στο cPanel. **Μεταβείτε στον κεντρικό φάκελο του Nextcloud** (π.χ., `cd /home/username/public_html/nextcloud`) και εκτελέστε την εντολή αναβάθμισης:
 
-    {% highlight ruby %}
-    php occ upgrade
-    {% endhighlight %}
+{% highlight ruby %}
+php occ upgrade
+{% endhighlight %}
 
     *Σημείωση:* Στο περιβάλλον του cPanel Terminal, συνήθως δεν χρειάζεται το `sudo -u...` καθώς οι εντολές εκτελούνται με τον χρήστη που κατέχει τα αρχεία.
     Περιμένετε μέχρι η εντολή να ολοκληρωθεί, παρακολουθώντας τα μηνύματα προόδου.
