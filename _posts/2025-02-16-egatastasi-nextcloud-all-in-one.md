@@ -1,14 +1,16 @@
 ---
 layout: post
 title: "Εγκατάσταση Nextcloud AIO σε Linux με Docker"
-date: 2025-02-08 12:00:00
+date: 2025-02-16 12:00:00
 description: Απλή και γρήγορη εγκατάσταση του Nextcloud All-in-One σε Linux με τη χρήση Docker. Mια βελτιωμένη εμπειρία χρήσης και ασφάλεια για το server σας.
 tags:
 - docker
 - docker storage directory
+- Nextcloud
 categories:
 - Greek
 - DOCKER
+- NEXTCLOUD
 twitter_text: 'Εγκατάσταση Nextcloud AIO σε Linux με Docker'
 ---
 
