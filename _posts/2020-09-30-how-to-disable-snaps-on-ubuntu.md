@@ -7,8 +7,8 @@ tags:
 - ubuntu
 - snap
 categories:
-- Ubuntu
-- snap
+- UBUNTU
+- Greek
 twitter_text: 'Πως να απενεργοποιήσετε τα #snaps σε φρέσκια εγκατάσταση #Ubuntu'
 ---
 

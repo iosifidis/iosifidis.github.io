@@ -7,14 +7,14 @@ tags:
 - openSUSE
 - GNOME
 - flatpak
+- leap
+- tumbleweed
 - εγκατάσταση
 - χρήση
 categories:
-- openSUSE
+- OPENSUSE
 - GNOME
-- flatpak
-- leap
-- tumbleweed
+- Greek
 twitter_text: 'Πως να κάνετε εγκατάσταση του #flatpak στο #openSUSE'
 ---
 

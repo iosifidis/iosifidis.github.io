@@ -10,8 +10,8 @@ tags:
 - αντίγραφο ασφαλείας
 - cloud
 categories:
-- Nextcloud
-- Cloud
+- NEXTCLOUD
+- Greek
 twitter_text: 'Πως να κάνετε χειροκίνητα ένα αντίγραφο ασφαλείας του #Nextcloud'
 ---
 

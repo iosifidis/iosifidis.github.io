@@ -19,12 +19,13 @@ tags:
 - μαθηματικά
 - ipynb
 categories:
-- SageMath
-- openSUSE
-- Ubuntu
-- Linux Mint
-- Arch Linux
-- Debian
+- SAGEMATH
+- OPENSUSE
+- UBUNTU
+- LINUX MINT
+- ARCH LINUX
+- DEBIAN
+- Greek
 twitter_text: 'Πως να κάνετε εγκατάσταση του #μαθηματικού λογισμικού #SageMath σε διανομές #GNU / #Linux'
 ---
 

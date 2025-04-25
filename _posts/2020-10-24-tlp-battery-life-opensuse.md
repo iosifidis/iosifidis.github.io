@@ -8,8 +8,8 @@ tags:
 - tlp
 - μπαταρία
 categories:
-- openSUSE
-- tlp
+- OPENSUSE
+- Greek
 twitter_text: 'Όρια φόρτισης #μπαταρίας και διαχείριση ισχύος στο @openSUSE με #TLP'
 ---
 

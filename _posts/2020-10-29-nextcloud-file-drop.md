@@ -11,8 +11,8 @@ tags:
 - cloud
 - tips
 categories:
-- Nextcloud
-- Cloud
+- NEXTCLOUD
+- Greek
 twitter_text: 'Πως μπορείτε να χρησιμοποιήσετε το "file drop" στο #Nextcloud μέσω #τερματικού...'
 ---
 

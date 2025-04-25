@@ -4,7 +4,7 @@ title: "Εγκατάσταση Code::Blocks σε διανομές GNU/Linux"
 date: 2020-11-11 12:30:00
 description: Το Code::Blocks είναι ένα δωρεάν εργαλείο για ανάπτυξη κώδικα C, C++ και Fortran. Πως όμως γίνεται εγκατάσταση σε διανομές GNU/Linux;
 tags:
-- codeblocks
+- Code::Blocks
 - flatpak
 - opensuse
 - ubuntu
@@ -14,12 +14,11 @@ tags:
 - ρυθμίσεις
 - γλώσσα προγραμματισμού C
 categories:
-- Code::Blocks
-- openSUSE
-- Ubuntu
-- Linux Mint
-- Arch Linux
-- Γλώσσα προγραμματισμού C
+- OPENSUSE
+- UBUNTU
+- LINUX MINT
+- ARCH LINUX
+- Greek
 twitter_text: 'Πως να κάνετε εγκατάσταση του #CodeBlocks σε διανομές #GNU / #Linux'
 ---
 
