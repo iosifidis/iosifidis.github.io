@@ -1,13 +1,13 @@
 # Site settings
 title: Η καταπληκτική ιστοσελίδα του Ευστάθιος Ιωσηφίδη
-description: Περί ανοικτού λογισμικού Nextcloud, openSUSE, Ubuntu, Fedora, ONLYOFFICE, ownCloud, GNU Health και άλλων
+description: Στήνετε τον πρώτο σας server; Αντιμετωπίζετε πρόβλημα με το Docker; Εδώ θα βρείτε αναλυτικές απαντήσεις και οδηγούς βήμα-προς-βήμα για τις καθημερινές σας προκλήσεις.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://iosifidis.github.io" # the base hostname & protocol for your site e.g. http://iosifidis.gr
 
 # User settings
 username: Ευστάθιος Ιωσηφίδης
-user_description: Veterinarian, openSUSE member, GNOME Foundation member, Fedora ambassador, Ubuntu member
-user_title: Περί ανοικτού λογισμικού Nextcloud, openSUSE, Ubuntu, Fedora, ONLYOFFICE, ownCloud, GNU Health και άλλων περίεργων
+user_description: Solutions Architect | Cloud & Systems Engineer | Digital Transformation Engineer | Open Source Advocate
+user_title: Μια προσωπική συλλογή από πειραματισμούς, οδηγούς και λύσεις για την κοινότητα του ανοιχτού λογισμικού. Μοιράζομαι όσα μαθαίνω για Nextcloud, Linux και άλλα "περίεργα".
 email: iefstathios@gmail.com
 linkedin_username: eiosifidis
 facebook_username: eiosifidis
