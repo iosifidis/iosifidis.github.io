@@ -1,15 +1,15 @@
 ---
 layout: post
-title: "Nextcloud: Πώς να διορθώσετε εύκολα το μήνυμα «Αυτή η εγκατάσταση Nextcloud βρίσκεται σε λειτουργία συντήρησης»"
+title: "Nextcloud: Πώς να απενεργοποιήσετε τη λειτουργία συντήρησης (Maintenance Mode)"
 date: 2025-04-23 12:00:00
-description: Nextcloud κολλημένο σε συντήρηση; Δείτε πώς να το απενεργοποιήσετε άμεσα με SSH ή cPanel και να διορθώσετε προβλήματα αναβάθμισης.
+description: Πώς να διορθώσετε εύκολα το μήνυμα «Αυτή η εγκατάσταση Nextcloud βρίσκεται σε λειτουργία συντήρησης»
 tags:
-- nextcloud
-- mainenance mode
+  - nextcloud
+  - mainenance mode
 categories:
-- Greek
-- NEXTCLOUD
-twitter_text: 'Nextcloud: Πώς να διορθώσετε εύκολα το μήνυμα «Αυτή η εγκατάσταση Nextcloud βρίσκεται σε λειτουργία συντήρησης»'
+  - Greek
+  - NEXTCLOUD
+twitter_text: "Nextcloud: Πώς να διορθώσετε εύκολα το μήνυμα «Αυτή η εγκατάσταση Nextcloud βρίσκεται σε λειτουργία συντήρησης»"
 ---
 
 ![Nextcloud AIO σε Linux με Docker](/post_images/nextcloud/nextcloud-maintenance-mode.png "Nextcloud AIO σε Linux με Docker"){:width="320px"}
@@ -78,6 +78,7 @@ sudo -u www-data php occ maintenance:mode --on
 {% endhighlight %}
 
     **Αποθηκεύστε (Save)** τις αλλαγές και κλείστε τον επεξεργαστή αρχείου.
+
 5.  **Ελέγξτε αν η ιστοσελίδα του Nextcloud λειτουργεί κανονικά.** Αν όχι, πιθανότατα η ενημέρωση έχει διακοπεί. Μπορείτε να προσπαθήσετε να την ολοκληρώσετε χρησιμοποιώντας το **Terminal (Τερματικό)** που παρέχεται μέσα από το cPanel.
 6.  Ανοίξτε το **Terminal** στο cPanel. **Μεταβείτε στον κεντρικό φάκελο του Nextcloud** (π.χ., `cd /home/username/public_html/nextcloud`) και εκτελέστε την εντολή αναβάθμισης:
 
@@ -87,8 +88,9 @@ php occ upgrade
 
     *Σημείωση:* Στο περιβάλλον του cPanel Terminal, συνήθως δεν χρειάζεται το `sudo -u...` καθώς οι εντολές εκτελούνται με τον χρήστη που κατέχει τα αρχεία.
     Περιμένετε μέχρι η εντολή να ολοκληρωθεί, παρακολουθώντας τα μηνύματα προόδου.
+
 7.  **Αν η εντολή `upgrade` αποτύχει,** όπως και στην περίπτωση του SSH, ίσως χρειαστεί να διαγράψετε χειροκίνητα προβληματικούς φακέλους εφαρμογών (μέσα από τον φάκελο `apps`) και να ξαναδοκιμάσετε την εντολή `php occ upgrade`. Για παράδειγμα, διαγράψτε το `/home/username/public_html/nextcloud/apps/updatenotification` αν αυτό αναφέρεται στο σφάλμα.
 8.  **Μόλις η εντολή `upgrade` ολοκληρωθεί επιτυχώς,** ελέγξτε ξανά την ιστοσελίδα του Nextcloud. Θα πρέπει πλέον να είναι πλήρως λειτουργική και ενημερωμένη.
 
 Αρχική δημοσίευση:  
-[https://eiosifidis.blogspot.com/2025/04/nextcloud-maintenance.html](https://eiosifidis.blogspot.com/2025/04/nextcloud-maintenance.html){:target="_blank"}
+[https://eiosifidis.blogspot.com/2025/04/nextcloud-maintenance.html](https://eiosifidis.blogspot.com/2025/04/nextcloud-maintenance.html){:target="\_blank"}
