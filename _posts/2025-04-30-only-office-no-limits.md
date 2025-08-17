@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Οδηγός: Δημιουργία ONLYOFFICE χωρίς το όριο των 20 συνδέσεων"
+title: "Δημιουργία ONLYOFFICE χωρίς το όριο των 20 συνδέσεων"
 date: 2025-04-30 12:00:00
 description: Οδηγός build για νεότερες, απεριόριστες εκδόσεις ONLYOFFICE. Φτιάξτε το δικό σας .deb από source με GitHub, Docker ή Actions. Χωρίς όρια σύνδεσης!
 tags:
@@ -8,10 +8,10 @@ tags:
 categories:
   - Greek
   - ONLYOFFICE
-twitter_text: "Οδηγός: Δημιουργία ONLYOFFICE χωρίς το όριο των 20 συνδέσεων"
+twitter_text: "Δημιουργία ONLYOFFICE χωρίς το όριο των 20 συνδέσεων"
 ---
 
-![Οδηγός: Δημιουργία ONLYOFFICE χωρίς το όριο των 20 συνδέσεων](/post_images/onlyoffice/ONLYOFFICE-20-connections.png "Οδηγός: Δημιουργία ONLYOFFICE χωρίς το όριο των 20 συνδέσεων"){:width="320px"}
+![Δημιουργία ONLYOFFICE χωρίς το όριο των 20 συνδέσεων](/post_images/onlyoffice/ONLYOFFICE-20-connections.png "Δημιουργία ONLYOFFICE χωρίς το όριο των 20 συνδέσεων"){:width="320px"}
 
 ## Εισαγωγή
 
