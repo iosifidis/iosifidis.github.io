@@ -4,22 +4,22 @@ title: "Συγχώνευση .ipynb αρχείων και χρήση στο Sage
 date: 2021-02-03 12:30:00
 description: Πως μπορείτε να κάνετε συγχώνευση αρχείων .ipynb σε ένα;
 tags:
-- sagemath
-- jupyter
-- notebook
-- python
-- μαθηματικά
-- ipynb
-- tips
+  - sagemath
+  - jupyter
+  - notebook
+  - python
+  - μαθηματικά
+  - ipynb
+  - tips
 categories:
-- SageMath
-twitter_text: 'Πως να κάνετε ενώσετε αρχεία του #SageMath σε ένα με την χρήση τερματικού'
+  - SAGEMATH
+  - Greek
+twitter_text: "Πως να κάνετε ενώσετε αρχεία του #SageMath σε ένα με την χρήση τερματικού"
 ---
 
 ![SageMath Logo](/post_images/sagemath/sagemath_logo.png "SageMath.org")
 
 Σε συνέχεια της ανάρτησης περί [Εγκατάστασης Μαθηματικού Λογισμικού SageMath σε διανομές GNU/Linux](/sagemath-linux), δημιουργήθηκε η ανάγκη για να γραφτεί η παρούσα ανάρτηση.
-
 
 # ΠΡΟΛΟΓΟΣ
 
@@ -31,14 +31,13 @@ twitter_text: 'Πως να κάνετε ενώσετε αρχεία του #Sage
 
 Η λύση ήρθε μετά από λίγο ψάξιμο και με την βοήθεια του τερματικού (αγαπάμε τερματικό).
 
-* Εφόσων έχετε εγκατεστημένη την python (προφανώς και θα την έχετε), εγκαταστήστε το πακέτο:  
-
+- Εφόσων έχετε εγκατεστημένη την python (προφανώς και θα την έχετε), εγκαταστήστε το πακέτο:
 
 {% highlight ruby %}
 sudo pip install nbmerge
 {% endhighlight %}
 
-* Μεταβείτε στον φάκελο που έχετε αποθηκευμένα τα αρχεία .ipynb και εκτελέστε την παρακάτω εντολή:
+- Μεταβείτε στον φάκελο που έχετε αποθηκευμένα τα αρχεία .ipynb και εκτελέστε την παρακάτω εντολή:
 
 {% highlight ruby %}
 nbmerge file_1.ipynb file_2.ipynb file_3.ipynb > merged.ipynb
@@ -46,7 +45,7 @@ nbmerge file_1.ipynb file_2.ipynb file_3.ipynb > merged.ipynb
 
 Το μέγεθος του αρχείου είναι μεν μικρό αλλά η πληροφορία μέσα είναι αρκετή. Οπότε θα αργήσει να ανοίξει λίγο. Περιμένετε μέχρι να το επεξεργαστεί ο server που εκτελείται το SageMath.
 
-Πλήρης τεκμηρίωση βρίσκεται εδώ [https://github.com/jbn/nbmerge](https://github.com/jbn/nbmerge)  
+Πλήρης τεκμηρίωση βρίσκεται εδώ [https://github.com/jbn/nbmerge](https://github.com/jbn/nbmerge)
 
 Εάν σας άρεσε αυτό το tip, ενημερώστε και τους φίλους σας, ώστε να το έχουν υπόψιν τους για μελλοντικές ανάγκες τους.
 

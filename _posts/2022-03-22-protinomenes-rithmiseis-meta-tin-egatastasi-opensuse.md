@@ -4,14 +4,13 @@ title: "Προτεινόμενες ρυθμίσεις και προγράμμα�
 date: 2022-03-10 12:00:00
 description: Για να έχετε ένα λειτουργικό σύστημα openSUSE, προτείνεται να εγκαταστήσετε αυτά που λέει το άρθρο
 tags:
-- openSUSE
-- ρυθμίσεις
-- προγράμματα
+  - openSUSE
+  - ρυθμίσεις
+  - προγράμματα
 categories:
-- openSUSE
-- Ρυθμίσεις
-- Greek
-twitter_text: 'Προτεινόμενες ρυθμίσεις και προγράμματα μετά την εγκατάσταση openSUSE'
+  - openSUSE
+  - Greek
+twitter_text: "Προτεινόμενες ρυθμίσεις και προγράμματα μετά την εγκατάσταση openSUSE"
 ---
 
 ![openSUSE](/post_images/opensuse/openSUSE-round.png "openSUSE")
@@ -26,7 +25,7 @@ twitter_text: 'Προτεινόμενες ρυθμίσεις και προγρά
 
 {% highlight ruby %}
 Για openSUSE Leap
-sudo zypper patch  && sudo zypper up
+sudo zypper patch && sudo zypper up
 
 Για openSUSE Tumbleweed  
 sudo zypper dup
@@ -42,19 +41,19 @@ sudo zypper dup
 
 ## Εγκατάσταση Flatpak
 
-* Εγκατάσταση του flatpak.
+- Εγκατάσταση του flatpak.
 
 {% highlight ruby %}
 sudo zypper install flatpak
 {% endhighlight %}
 
-* Εισαγωγή του αποθετηρίου flatpak.
+- Εισαγωγή του αποθετηρίου flatpak.
 
 {% highlight ruby %}
 sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 {% endhighlight %}
 
-* Επανεκκίνηση του συστήματος
+- Επανεκκίνηση του συστήματος
 
 Για εγκατάσταση εφαρμογών, μπορείτε να χρησιμοποιήσετε την ιστοσελίδα:
 
@@ -94,51 +93,56 @@ projectlibre thunderbolt-user-space bolt xsane hplip-sane breeze5-cursors gnome-
 Επίσης εάν δεν τα χρειάζεστε όλα, μην τα εγκαθιστάτε.
 
 {% highlight ruby %}
+
 ### GIT
-- Gitkraken: flatpak install com.axosoft.GitKraken 
+
+- Gitkraken: flatpak install com.axosoft.GitKraken
 
 - Gittyup: flatpak install com.github.Murmele.Gittyup
 
 - Gitnuro: flatpak install com.jetpackduba.Gitnuro
 
 ### PDF - OFFICE
-- PDFSlicer: flatpak install com.github.junrrein.PDFSlicer 
 
-- MasterPDFEditor (edit PDF properties): flatpak install net.codeindustry.MasterPDFEditor 
+- PDFSlicer: flatpak install com.github.junrrein.PDFSlicer
 
-- PDFedit (PDF editor with ability to browse/edit the tree of raw pdf objects): flatpak install  net.sourceforge.Pdfedit
+- MasterPDFEditor (edit PDF properties): flatpak install net.codeindustry.MasterPDFEditor
 
-- draw.io (Create and share diagrams): flatpak install com.jgraph.drawio.desktop 
+- PDFedit (PDF editor with ability to browse/edit the tree of raw pdf objects): flatpak install net.sourceforge.Pdfedit
+
+- draw.io (Create and share diagrams): flatpak install com.jgraph.drawio.desktop
 
 - ONLYOFFICE: flatpak install org.onlyoffice.desktopeditors
 
 - Zotero (Collect, organize, cite, and share research): flatpak install org.zotero.Zotero
 
-- Xournal++ (Take handwritten notes): flatpak install com.github.xournalpp.xournalpp 
+- Xournal++ (Take handwritten notes): flatpak install com.github.xournalpp.xournalpp
 
 - Foliate (Ανάγνωση ηλεκτρονικών βιβλίων με στυλ): flatpak install com.github.johnfactotum.Foliate
 
 - Gaphor (Simple UML and SysML modeling tool): flatpak install org.gaphor.Gaphor
 
 ### CHAT
-- MS Teams: flatpak install com.microsoft.Teams 
 
-- SLACK: flatpak install com.slack.Slack 
+- MS Teams: flatpak install com.microsoft.Teams
 
-- Discord: flatpak install com.discordapp.Discord 
+- SLACK: flatpak install com.slack.Slack
 
-- Telegram: flatpak install org.telegram.desktop 
+- Discord: flatpak install com.discordapp.Discord
 
-- Zoom: flatpak install us.zoom.Zoom 
+- Telegram: flatpak install org.telegram.desktop
+
+- Zoom: flatpak install us.zoom.Zoom
 
 - Viber (Send free messages and make free calls): flatpak install com.viber.Viber
 
 - Element (Secure communications platform built around you): flatpak install im.riot.Riot
 
 ### PROGRAMMING
+
 - CodeBlocks: flatpak install org.codeblocks.codeblocks
 
-- Eclipse: flatpak install org.eclipse.Java 
+- Eclipse: flatpak install org.eclipse.Java
 
 - Postman (Platform for building and using APIs): flatpak install com.getpostman.Postman
 
@@ -146,7 +150,7 @@ projectlibre thunderbolt-user-space bolt xsane hplip-sane breeze5-cursors gnome-
 
 - Android Studio: flatpak install com.google.AndroidStudio
 
-- Notepadqq (An advanced text editor): flatpak install com.notepadqq.Notepadqq 
+- Notepadqq (An advanced text editor): flatpak install com.notepadqq.Notepadqq
 
 - Apache JMeter (Load testing tool): flatpak install org.apache.jmeter
 
@@ -155,6 +159,7 @@ projectlibre thunderbolt-user-space bolt xsane hplip-sane breeze5-cursors gnome-
 - JupyterLab Desktop (JupyterLab desktop application, based on Electron): flatpak install org.jupyter.JupyterLab
 
 ### MULTIMEDIA
+
 - VLC (VLC media player, the open-source multimedia player): flatpak install org.videolan.VLC
 
 - Newpipe (Free and lightweight YouTube frontend for Android): flatpak install net.newpipe.NewPipe
@@ -163,22 +168,23 @@ projectlibre thunderbolt-user-space bolt xsane hplip-sane breeze5-cursors gnome-
 
 - Peek (Simple screen recorder with an easy to use interface): flatpak install com.uploadedlobster.peek
 
-- Kooha (Κομψή καταγραφή οθόνης): flatpak install io.github.seadve.Kooha 
+- Kooha (Κομψή καταγραφή οθόνης): flatpak install io.github.seadve.Kooha
 
 - Stremio: flatpak install com.stremio.Stremio
 
-- XnSketch (Turn photos into sketch images): flatpak install com.xnview.XnSketch 
+- XnSketch (Turn photos into sketch images): flatpak install com.xnview.XnSketch
 
-- Blender: flatpak install org.blender.Blender 
+- Blender: flatpak install org.blender.Blender
 
 ### MISC
-- Anydesk (Connect to a computer remotely): flatpak install com.anydesk.Anydesk 
+
+- Anydesk (Connect to a computer remotely): flatpak install com.anydesk.Anydesk
 
 - Wireshark (Network protocol analyzer):flatpak install org.wireshark.Wireshark
 
 - Raspberry Pi Imager (Raspberry Pi imaging utility): flatpak install org.raspberrypi.rpi-imager
 
-- Health (Track your fitness goals): flatpak install dev.Cogitri.Health 
+- Health (Track your fitness goals): flatpak install dev.Cogitri.Health
 
 - FreeFileSync (Visual folder comparison and synchronization): flatpak install org.freefilesync.FreeFileSync
 
@@ -189,10 +195,11 @@ projectlibre thunderbolt-user-space bolt xsane hplip-sane breeze5-cursors gnome-
 - GPT4ALL (Open-source assistant): flatpak install io.gpt4all.gpt4all
 
 ### FLATPAK
+
 - Flatseal (Διαχείριση δικαιωμάτων Flatpak): flatpak install com.github.tchx84.Flatseal
 
 - Flatsweep (Καθαριστής υπολειπόμενων δεδομένων Flatpak): flatpak install io.github.giantpinkrobots.flatsweep
-{% endhighlight %}
+  {% endhighlight %}
 
 Προσοχή στο discord, για να μπορείτε να στέλνετε αρχεία από το home, πρέπει να δώσετε την εντολή:
 
@@ -256,12 +263,14 @@ sudo gpasswd -a your-user vboxusers
 
 {% highlight ruby %}
 #zypper aliases
+
 # UPDATE
-alias update="sudo zypper dup && sudo zypper clean && sudo zypper purge-kernels && sudo rm /tmp/* -rf && sudo journalctl --vacuum-time=1d && flatup && flatclear && flatclean"
-alias upgrade="sudo zypper dup" 
+
+alias update="sudo zypper dup && sudo zypper clean && sudo zypper purge-kernels && sudo rm /tmp/_ -rf && sudo journalctl --vacuum-time=1d && flatup && flatclear && flatclean"
+alias upgrade="sudo zypper dup"
 alias flatup="sudo flatpak update"
 alias flatclean="sudo flatpak uninstall --unused"
-alias flatclear="sudo rm -rf /var/tmp/flatpak-cache*"
+alias flatclear="sudo rm -rf /var/tmp/flatpak-cache_"
 alias pipup="pip install --upgrade pip"
 alias upbash=". ~/.bashrc"
 alias orphaned="sudo zypper pa --orphaned"
@@ -281,7 +290,7 @@ alias protonst="sudo protonvpn disconnect"
 
 #MISC
 alias search="sudo zypper se"
-alias install="sudo zypper in" 
+alias install="sudo zypper in"
 alias team="sudo systemctl start teamviewerd"
 alias mega="megacopy --local megatools --remote /Root/Uploads"
 alias ar="sudo zypper ar -f -n"
@@ -296,8 +305,8 @@ alias my-ip="curl ipinfo.io/ip"
 alias server="python -m SimpleHTTPServer 8000"
 alias doker="sudo systemctl start docker"
 alias metefrase="trans -t el "
-alias enose="pdfunite *.pdf out.pdf"
-alias png2pdf="convert *.png out.pdf"
+alias enose="pdfunite _.pdf out.pdf"
+alias png2pdf="convert _.png out.pdf"
 alias opensuse="wget http://download.opensuse.org/tumbleweed/iso/openSUSE-Tumbleweed-GNOME-Live-x86_64-Current.iso"
 alias covid="curl snf-878293.vm.okeanos.grnet.gr"
 alias weather="curl http://wttr.in/Thessaloniki"
@@ -310,8 +319,8 @@ alias py="python2"
 
 Το GNOME για να γίνει λίγο πιο λειτουργικό, χρειάζεται κάποια πρόσθετα:
 
-* Προσθέτει τα εικονίδια πάνω στην μπάρα [https://extensions.gnome.org/extension/2890/tray-icons-reloaded/](https://extensions.gnome.org/extension/2890/tray-icons-reloaded/)  
-* Επιτρέπει στον χρήστη να παίξει με δικά του θέματα [https://extensions.gnome.org/extension/19/user-themes/](https://extensions.gnome.org/extension/19/user-themes/)  
-* Βολεύει να αποκρύπτει την μπάρα με τις εφαρμογές και να την εμφανίζει όταν μετακινείται το ποντίκει εκεί [https://extensions.gnome.org/extension/307/dash-to-dock/](https://extensions.gnome.org/extension/307/dash-to-dock/)  
-* Το tweaks και το extensions, τα τοποθετεί στις επιλογές χρήστη (πάνω δεξιά) [https://extensions.gnome.org/extension/1653/tweaks-in-system-menu/](https://extensions.gnome.org/extension/1653/tweaks-in-system-menu/)  
-* Μου αρέσει το πρόσθετο vitals αλλά δεν δείχνει το μέγεθος δίσκου. Οπότε εναλλακτικά το resource-monitor κάνει την δουλειά [https://extensions.gnome.org/extension/1634/resource-monitor/](https://extensions.gnome.org/extension/1634/resource-monitor/)
+- Προσθέτει τα εικονίδια πάνω στην μπάρα [https://extensions.gnome.org/extension/2890/tray-icons-reloaded/](https://extensions.gnome.org/extension/2890/tray-icons-reloaded/)
+- Επιτρέπει στον χρήστη να παίξει με δικά του θέματα [https://extensions.gnome.org/extension/19/user-themes/](https://extensions.gnome.org/extension/19/user-themes/)
+- Βολεύει να αποκρύπτει την μπάρα με τις εφαρμογές και να την εμφανίζει όταν μετακινείται το ποντίκει εκεί [https://extensions.gnome.org/extension/307/dash-to-dock/](https://extensions.gnome.org/extension/307/dash-to-dock/)
+- Το tweaks και το extensions, τα τοποθετεί στις επιλογές χρήστη (πάνω δεξιά) [https://extensions.gnome.org/extension/1653/tweaks-in-system-menu/](https://extensions.gnome.org/extension/1653/tweaks-in-system-menu/)
+- Μου αρέσει το πρόσθετο vitals αλλά δεν δείχνει το μέγεθος δίσκου. Οπότε εναλλακτικά το resource-monitor κάνει την δουλειά [https://extensions.gnome.org/extension/1634/resource-monitor/](https://extensions.gnome.org/extension/1634/resource-monitor/)

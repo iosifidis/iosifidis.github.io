@@ -4,16 +4,16 @@ title: "Personal setup for ownCloud on Arch Linux, using Apache and MariaDB"
 date: 2016-03-07 23:33:17
 description: Official documentation describes installation on Red Hat/CentOS and Ubuntu but not openSUSE Leap. Here's a tutorial...
 tags:
-- nextcloud
-- nextcloud hub
-- openSUSE
-- leap
-- cloud
+  - nextcloud
+  - nextcloud hub
+  - openSUSE
+  - leap
+  - cloud
 categories:
-- Nextcloud
-- openSUSE
-- Cloud
-twitter_text: 'Personal setup for ownCloud on Arch Linux, using Apache and MariaDB'
+  - NEXTCLOUD
+  - openSUSE
+  - English
+twitter_text: "Personal setup for ownCloud on Arch Linux, using Apache and MariaDB"
 ---
 
 {% highlight ruby %}
@@ -94,7 +94,9 @@ nano /etc/sudoers
 and change the wheel line
 
 {% highlight ruby %}
+
 ## Uncomment to allow members of group wheel to execute any command
+
 %wheel ALL=(ALL) ALL
 {% endhighlight %}
 
@@ -118,7 +120,7 @@ makepkg -si
 
 ### 2. Setup static ip
 
-Edit the file eth0.network. Systemd-networkd uses *.network files.
+Edit the file eth0.network. Systemd-networkd uses \*.network files.
 
 {% highlight ruby %}
 nano /etc/systemd/network/eth0.network
@@ -155,7 +157,7 @@ You will then need systemd-networkd enabled:
 systemctl enable systemd-networkd
 {% endhighlight %}
 
-Login with 
+Login with
 
 {% highlight ruby %}
 ssh alarm@192.168.1.100
@@ -171,7 +173,7 @@ Install No-IP Client with yaourt.
 yaourt -S noip
 {% endhighlight %}
 
-*Configure No-IP Back-end*
+_Configure No-IP Back-end_
 
 Create the configuration file.
 
@@ -180,7 +182,7 @@ noip2 -C
 {% endhighlight %}
 
 Enter the relevant details when prompted. All settings can be modified individually later.
- 
+
 Modify the update interval.
 
 {% highlight ruby %}
@@ -188,7 +190,7 @@ noip2 -U 30
 {% endhighlight %}
 
 Interval that the IP will be updated is set with -U option in minutes. Default is 30 minutes.
- 
+
 Modify No-IP username.
 
 {% highlight ruby %}
@@ -199,7 +201,7 @@ Modify No-IP password.
 
 {% highlight ruby %}
 noip2 -p password
-{% endhighlight %} 
+{% endhighlight %}
 
 Start noip service.
 
@@ -236,7 +238,7 @@ mysql -u root -p
 
 CREATE DATABASE owncloudb;
 
-GRANT ALL ON owncloudb.* TO ocuser@localhost IDENTIFIED BY 'dbpass';
+GRANT ALL ON owncloudb.\* TO ocuser@localhost IDENTIFIED BY 'dbpass';
 {% endhighlight %}
 
 exit the environement.
@@ -321,7 +323,7 @@ Now open the php.ini
 nano /etc/php/php.ini
 {% endhighlight %}
 
-first find the open_basedir and add the line 
+first find the open_basedir and add the line
 
 {% highlight ruby %}
 open_basedir = /srv/http/:/dev/urandom:/usr/share/webapps/:/var/www/owncloud/apps/:/mnt/owncloud_data/
@@ -351,14 +353,14 @@ systemctl enable httpd.service
 
 ### 6. Extras
 
-* Start Network Time Protocol daemon.
+- Start Network Time Protocol daemon.
 
 {% highlight ruby %}
 systemctl start ntpd.service
 systemctl enable ntpd.service
 {% endhighlight %}
 
-* Enable [Caching] (https://wiki.archlinux.org/index.php/OwnCloud#Caching) 
+- Enable [Caching] (https://wiki.archlinux.org/index.php/OwnCloud#Caching)
 
 Make sure you have the package php-apcu installed. Open the file apcu.ini.
 
@@ -382,8 +384,8 @@ And add
 
 {% highlight ruby %}
 [apc]
- apc.enable_cli=1
-{% endhighlight %} 
+apc.enable_cli=1
+{% endhighlight %}
 
 Finally, open the file config.php.
 
@@ -395,7 +397,7 @@ nano /etc/webapps/owncloud/config/config.php
 'memcache.local' => '\OC\Memcache\APCu',
 {% endhighlight %}
 
-* [Permissions](https://wiki.archlinux.org/index.php/OwnCloud#Setting_strong_permissions)
+- [Permissions](https://wiki.archlinux.org/index.php/OwnCloud#Setting_strong_permissions)
 
 For hardened security we recommend setting the permissions on your ownCloud directories as strictly as possible, and for proper server operations. This should be done immediately after the initial installation and before running the setup. Your HTTP user must own the config/, data/ and apps/ directories so that you can configure ownCloud, create, modify and delete your data files, and install apps via the ownCloud Web interface.
 
@@ -434,8 +436,8 @@ chmod +x ${ocpath}/occ
 
 printf "chmod/chown .htaccess\n"
 if [ -f ${ocpath}/.htaccess ]
- then
-  chmod 0644 ${ocpath}/.htaccess
+then
+chmod 0644 ${ocpath}/.htaccess
   chown ${rootuser}:${htgroup} ${ocpath}/.htaccess
 fi
 if [ -f ${ocpath}/data/.htaccess ]
@@ -474,4 +476,3 @@ add the following
 {% highlight ruby %}
 1 => 'domain.no-ip.org'
 {% endhighlight %}
-

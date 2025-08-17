@@ -12,7 +12,7 @@ tags:
 - εγκατάσταση
 - χρήση
 categories:
-- OPENSUSE
+- openSUSE
 - GNOME
 - Greek
 twitter_text: 'Πως να κάνετε εγκατάσταση του #flatpak στο #openSUSE'

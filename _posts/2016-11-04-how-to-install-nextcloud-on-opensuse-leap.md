@@ -10,7 +10,7 @@ tags:
 - leap
 - cloud
 categories:
-- OPENSUSE
+- openSUSE
 - NEXTCLOUD
 - English
 twitter_text: 'Tutorial how to install Nextcloud on openSUSE Leap'

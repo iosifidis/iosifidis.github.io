@@ -4,16 +4,15 @@ title: "Εγκατάσταση και ενεργοποίηση του flatpak κ
 date: 2021-08-17 12:30:00
 description: Oδηγίες εγκατάστασης flatpak και snap σε openSUSE Leap/Tumbleweed
 tags:
-- openSUSE
-- εγκατάσταση
-- ρυθμίσεις
-- flatpak
-- snap
+  - openSUSE
+  - εγκατάσταση
+  - ρυθμίσεις
+  - flatpak
+  - snap
 categories:
-- openSUSE
-- flatpak
-- snap
-twitter_text: 'Εγκατάσταση και ενεργοποίηση του flatpak και snap σε openSUSE Leap/Tumbleweed'
+  - openSUSE
+  - Greek
+twitter_text: "Εγκατάσταση και ενεργοποίηση του flatpak και snap σε openSUSE Leap/Tumbleweed"
 ---
 
 ![openSUSE](/post_images/opensuse/small-lamp.jpg "openSUSE"){:height="200px" width="200px"}
@@ -22,34 +21,33 @@ twitter_text: 'Εγκατάσταση και ενεργοποίηση του fla
 
 ## FLATPAK
 
-Είδαμε σε προηγούμενο άρθρο [ΕΓΚΑΤΑΣΤΑΣΗ ΚΑΙ ΧΡΗΣΗ FLATPAK ΣΤΟ OPENSUSE](/how-to-install-flatpak-on-openSUSE/).  
+Είδαμε σε προηγούμενο άρθρο [ΕΓΚΑΤΑΣΤΑΣΗ ΚΑΙ ΧΡΗΣΗ FLATPAK ΣΤΟ OPENSUSE](/how-to-install-flatpak-on-openSUSE/).
 
 Εδώ θα πάρουμε μόνο τις δυο εντολές για την εγκατάσταση και ενεργοποίησή του.
 
 ### ΕΓΚΑΤΑΣΤΑΣΗ
 
-* Εγκατάσταση του flatpak.
+- Εγκατάσταση του flatpak.
 
 {% highlight ruby %}
 sudo zypper install flatpak
 {% endhighlight %}
 
-* Εισαγωγή του αποθετηρίου flatpak.
+- Εισαγωγή του αποθετηρίου flatpak.
 
 {% highlight ruby %}
 sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 {% endhighlight %}
 
-* Επανεκκίνηση του συστήματος
+- Επανεκκίνηση του συστήματος
 
 Για εγκατάσταση εφαρμογών, μπορείτε να χρησιμοποιήσετε την ιστοσελίδα:
 
 [https://flathub.org/apps](https://flathub.org/apps)
 
-
 ## SNAP
 
-Εδώ θα δούμε πως γίνεται η εγκατάσταση και ενεργοποίηση του snap. 
+Εδώ θα δούμε πως γίνεται η εγκατάσταση και ενεργοποίηση του snap.
 
 ### Εισαγωγή αποθετηρίων
 

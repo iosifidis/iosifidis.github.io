@@ -4,22 +4,20 @@ title: "Εγκατάσταση Code::Blocks σε διανομές GNU/Linux"
 date: 2020-11-11 12:30:00
 description: Το Code::Blocks είναι ένα δωρεάν εργαλείο για ανάπτυξη κώδικα C, C++ και Fortran. Πως όμως γίνεται εγκατάσταση σε διανομές GNU/Linux;
 tags:
-- Code::Blocks
-- flatpak
-- opensuse
-- ubuntu
-- arch linux
-- linux mint
-- εγκατάσταση
-- ρυθμίσεις
-- γλώσσα προγραμματισμού C
+  - Code::Blocks
+  - flatpak
+  - opensuse
+  - ubuntu
+  - arch linux
+  - linux mint
+  - εγκατάσταση
+  - ρυθμίσεις
+  - γλώσσα προγραμματισμού C
 categories:
-- OPENSUSE
-- UBUNTU
-- LINUX MINT
-- ARCH LINUX
-- Greek
-twitter_text: 'Πως να κάνετε εγκατάσταση του #CodeBlocks σε διανομές #GNU / #Linux'
+  - LINUX
+  - Code::Blocks
+  - Greek
+twitter_text: "Πως να κάνετε εγκατάσταση του #CodeBlocks σε διανομές #GNU / #Linux"
 ---
 
 ![Code:Blocks Logo](/post_images/codeblocks/code-blocks.png "codeblocks.org")
@@ -49,8 +47,8 @@ sudo flatpak install org.codeblocks.codeblocks
 
 Εκεί επιλέξτε την έκδοση που έχετε εγκατεστημένη (μπορείτε να πατήσετε και εδώ επάνω στην έκδοσή σας):
 
-* [openSUSE Tumbleweed](https://software.opensuse.org/ymp/devel:tools:ide/openSUSE_Factory/codeblocks.ymp?base=openSUSE%3AFactory&amp;query=codeblocks)
-* [openSUSE Leap 15.2](https://software.opensuse.org/ymp/devel:tools:ide/openSUSE_Leap_15.2/codeblocks.ymp?base=openSUSE%3ALeap%3A15.2&amp;query=codeblocks)
+- [openSUSE Tumbleweed](https://software.opensuse.org/ymp/devel:tools:ide/openSUSE_Factory/codeblocks.ymp?base=openSUSE%3AFactory&query=codeblocks)
+- [openSUSE Leap 15.2](https://software.opensuse.org/ymp/devel:tools:ide/openSUSE_Leap_15.2/codeblocks.ymp?base=openSUSE%3ALeap%3A15.2&query=codeblocks)
 
 Και θα ανοίξει ένα ymp αρχείο, θα προσθέσει το αποθετήριο **devel:tools:ide**, από όπου θα γίνει η εγκατάσταση του Code:Blocks.
 
@@ -92,35 +90,41 @@ sudo apt-get install codeblocks codeblocks-contrib
 
 Στο αρχείο [default.conf](https://github.com/yjzzjy4/Codeblocks-themes) (ή κατεβάστε το από [εδώ](/post_images/codeblocks/default.conf)), έχει πολλά θέματα, όμως που έπρεπε νααποθηκευτούν; Όπως είδατε, υπάρχουν δυο τρόποι.
 
-1. Εάν το εγκαταστήσετε από το πακέτο ή αποθετήριο της διανομής σας, τότε μπορείτε να αποθηκεύσετε το αρχείο **default.conf** στον φάκελο όπως βλέπετε παρακάτω:  
-  
+1. Εάν το εγκαταστήσετε από το πακέτο ή αποθετήριο της διανομής σας, τότε μπορείτε να αποθηκεύσετε το αρχείο **default.conf** στον φάκελο όπως βλέπετε παρακάτω:
+
 {% highlight ruby %}
-# Κρατήστε αντίγραφο ασφαλείας  
-cp ~/.codeblocks/default.conf ~/.codeblocks/default.conf.bak  
-  
-# Αντιγράψτε το αρχείο default.conf από τον φάκελο που το κατεβάσατε, στον παρακάτω φάκελο  
+
+# Κρατήστε αντίγραφο ασφαλείας
+
+cp ~/.codeblocks/default.conf ~/.codeblocks/default.conf.bak
+
+# Αντιγράψτε το αρχείο default.conf από τον φάκελο που το κατεβάσατε, στον παρακάτω φάκελο
+
 cp default.conf ~/.codeblocks/
 {% endhighlight %}
-  
-2. Εάν το εγκαταστήσετε από το αποθετήριο flatpak, τότε ο φάκελος είναι διαφορετικός. Αποθηκεύστε το αρχείο default.conf στον φάκελο όπως βλέπετε παρακάτω:  
-  
+
+2. Εάν το εγκαταστήσετε από το αποθετήριο flatpak, τότε ο φάκελος είναι διαφορετικός. Αποθηκεύστε το αρχείο default.conf στον φάκελο όπως βλέπετε παρακάτω:
+
 {% highlight ruby %}
-# Κρατήστε αντίγραφο ασφαλείας  
-cp ~/.var/app/org.codeblocks.codeblocks/config/codeblocks/default.conf ~/.var/app/org.codeblocks.codeblocks/config/codeblocks/default.conf.bak  
-  
-# Αντιγράψτε το αρχείο default.conf από τον φάκελο που το κατεβάσατε, στον παρακάτω φάκελο  
+
+# Κρατήστε αντίγραφο ασφαλείας
+
+cp ~/.var/app/org.codeblocks.codeblocks/config/codeblocks/default.conf ~/.var/app/org.codeblocks.codeblocks/config/codeblocks/default.conf.bak
+
+# Αντιγράψτε το αρχείο default.conf από τον φάκελο που το κατεβάσατε, στον παρακάτω φάκελο
+
 cp default.conf ~/.var/app/org.codeblocks.codeblocks/config/codeblocks/
 {% endhighlight %}
 
-Mετακινηθείτε στο **Settings->Editor->Syntax highlighting->Colour theme**. Ορίστε το στο επιθυμητό θέμα.  
+Mετακινηθείτε στο **Settings->Editor->Syntax highlighting->Colour theme**. Ορίστε το στο επιθυμητό θέμα.
 
-Τέλος, για να φαίνονται λίγο μεταλύτερα τα γράμματα στο τερματικό, μετακινηθείτε το **Settings>Environment** και στο *Terminal to launch console programs* και αλλάξτε το στο παρακάτω:  
+Τέλος, για να φαίνονται λίγο μεταλύτερα τα γράμματα στο τερματικό, μετακινηθείτε το **Settings>Environment** και στο _Terminal to launch console programs_ και αλλάξτε το στο παρακάτω:
 
 {% highlight ruby %}
 xterm -fa 'Monospace' -fs 12 -bg black -fg white -geometry 132x50 -T $TITLE -e
 {% endhighlight %}
-  
+
 Θα μεγαλώσουν τα γράμματα (αλλάξτε το μέγεθος 12) αλλά και το παράθυρο.
-  
+
 Αρχικό post:  
 [https://eiosifidis.blogspot.com/2020/11/codeblocks-gnulinux.html](https://eiosifidis.blogspot.com/2020/11/codeblocks-gnulinux.html)

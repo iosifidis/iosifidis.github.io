@@ -4,15 +4,15 @@ title: "Αποστολή αρχείου στον κοινόχρηστο φάκε
 date: 2020-10-29 12:30:00
 description: Μάθαμε να ανεβάζουμε τα αρχεία στο Nextcloud Hub από το browser. Πως ανεβαίνουν από το τερματικό;
 tags:
-- nextcloud
-- nextcloud hub
-- file drop
-- τερματικό
-- cloud
-- tips
+  - nextcloud
+  - nextcloud hub
+  - file drop
+  - τερματικό
+  - cloud
+  - tips
 categories:
-- NEXTCLOUD
-- Greek
+  - NEXTCLOUD
+  - Greek
 twitter_text: 'Πως μπορείτε να χρησιμοποιήσετε το "file drop" στο #Nextcloud μέσω #τερματικού...'
 ---
 
@@ -39,10 +39,11 @@ curl -k -T FILEPATH -u "USERNAME:" -H 'X-Requested-With: XMLHttpRequest' -X PUT 
 {% endhighlight %}
 
 Όπου:
-* **FILEPATH**: είναι το όνομα αρχείου στον δίσκο σας
-* **USERNAME**: είναι το χαρακτηριστικό του φακέλου από την αρχική διεύθυνση (στο παράδειγμα είναι το xxxxxxx)
-* **FILENAME**: είναι το όνομα αρχείου που θέλετε να αποθηκευτεί στο Nextcloud Hub
-* **ΠΡΟΣΟΧΗ** στο URL διότι μόνο το αρχικό domain είναι ίδιο. Μετά αλλάζει από index σε public κλπ
+
+- **FILEPATH**: είναι το όνομα αρχείου στον δίσκο σας
+- **USERNAME**: είναι το χαρακτηριστικό του φακέλου από την αρχική διεύθυνση (στο παράδειγμα είναι το xxxxxxx)
+- **FILENAME**: είναι το όνομα αρχείου που θέλετε να αποθηκευτεί στο Nextcloud Hub
+- **ΠΡΟΣΟΧΗ** στο URL διότι μόνο το αρχικό domain είναι ίδιο. Μετά αλλάζει από index σε public κλπ
 
 Για να μην γράφετε δυο φορές το αρχείο, μπορείτε να το κάνετε μια φορά με την παρακάτω εντολή:
 
@@ -50,11 +51,11 @@ curl -k -T FILEPATH -u "USERNAME:" -H 'X-Requested-With: XMLHttpRequest' -X PUT 
 FILE = "[ReplaceWithFileInCurrentDir]"
 
 curl "https://yourdomain.com/public.php/webdav/$FILE" \
-    -u "xxxxxxx:" \
-    --compressed \
-    -X PUT \
-    --upload-file $FILE \
-    -H 'X-Requested-With: XMLHttpRequest'
+ -u "xxxxxxx:" \
+ --compressed \
+ -X PUT \
+ --upload-file $FILE \
+ -H 'X-Requested-With: XMLHttpRequest'
 {% endhighlight %}
 
 Αλλάξτε το **ReplaceWithFileInCurrentDir** με το όνομα του αρχείου (και τον ακριβή φάκελο) που θέλετε να ανεβάσετε.

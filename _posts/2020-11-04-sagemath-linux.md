@@ -4,29 +4,25 @@ title: "Εγκατάσταση Μαθηματικού Λογισμικού SageM
 date: 2020-11-04 12:30:00
 description: Το SageMath είναι ένα ελεύθερο (δωρεάν) λογισμικό μαθηματικών ανοιχτού κώδικα. Πως γίνεται η εγκατάσταση σε Linux;
 tags:
-- sagemath
-- flatpak
-- opensuse
-- ubuntu
-- arch linux
-- linux mint
-- debian
-- εγκατάσταση
-- jupyter
-- porto
-- notebook
-- python
-- μαθηματικά
-- ipynb
+  - sagemath
+  - flatpak
+  - opensuse
+  - ubuntu
+  - arch linux
+  - linux mint
+  - debian
+  - εγκατάσταση
+  - jupyter
+  - porto
+  - notebook
+  - python
+  - μαθηματικά
+  - ipynb
 categories:
-- SAGEMATH
-- OPENSUSE
-- UBUNTU
-- LINUX MINT
-- ARCH LINUX
-- DEBIAN
-- Greek
-twitter_text: 'Πως να κάνετε εγκατάσταση του #μαθηματικού λογισμικού #SageMath σε διανομές #GNU / #Linux'
+  - SAGEMATH
+  - LINUX
+  - Greek
+twitter_text: "Πως να κάνετε εγκατάσταση του #μαθηματικού λογισμικού #SageMath σε διανομές #GNU / #Linux"
 ---
 
 ![SageMath Logo](/post_images/sagemath/sagemath_logo.png "SageMath.org")
@@ -41,11 +37,11 @@ twitter_text: 'Πως να κάνετε εγκατάσταση του #μαθη�
 
 Το [Sage (System for Algebra and Geometry Experimentation)](https://www.sagemath.org/) είναι ένα ελεύθερο (δωρεάν) λογισμικό μαθηματικών ανοιχτού κώδικα που υποστηρίζει αριθμητικούς υπολογισμούς, και γενικά την έρευνα και τη διδασκαλία στην άλγεβρα, στη γεωμετρία, στην θεωρία αριθμών, στην κρυπτογραφία, και σε συναφείς τομείς. Καλείται συχνά και **Sagemath** καθώς η λέξη Sage είναι πολύ κοινή.
 
-Συνδυάζει τις δυνατότητες πολλών υπαρχόντων πακέτων ανοιχτού κώδικα (*NumPy, SciPy, matplotlib, Sympy, Maxima, GAP, FLINT, R* κ.τ.λ.) σε µία κοινή διεπαφή βασισμένη στη γλώσσα **Python**. Είναι λογισμικό γενικής χρήσης, με δυνατότητες αναλυτικών και αριθμητικών υπολογισμών καθώς και γραφικών.
+Συνδυάζει τις δυνατότητες πολλών υπαρχόντων πακέτων ανοιχτού κώδικα (_NumPy, SciPy, matplotlib, Sympy, Maxima, GAP, FLINT, R_ κ.τ.λ.) σε µία κοινή διεπαφή βασισμένη στη γλώσσα **Python**. Είναι λογισμικό γενικής χρήσης, με δυνατότητες αναλυτικών και αριθμητικών υπολογισμών καθώς και γραφικών.
 
-Ο γενικός στόχος του Sage, σύμφωνα με τον δημιουργό του, είναι να δημιουργηθεί μια βιώσιμη, δωρεάν, ανοιχτού κώδικα εναλλακτική λύση απέναντι στα μαθηματικά λογισμικά: *Maple, Mathematica, Magma, και MATLAB*.
+Ο γενικός στόχος του Sage, σύμφωνα με τον δημιουργό του, είναι να δημιουργηθεί μια βιώσιμη, δωρεάν, ανοιχτού κώδικα εναλλακτική λύση απέναντι στα μαθηματικά λογισμικά: _Maple, Mathematica, Magma, και MATLAB_.
 
-Η πρώτη δημόσια έκδοση παρουσιάστηκε τον Φεβρουάριο του 2005 ως ελεύθερο λογισμικό. Ο δημιουργός της είναι ο William Stein, καθηγητής μαθηματικών στο University of Washington. 
+Η πρώτη δημόσια έκδοση παρουσιάστηκε τον Φεβρουάριο του 2005 ως ελεύθερο λογισμικό. Ο δημιουργός της είναι ο William Stein, καθηγητής μαθηματικών στο University of Washington.
 
 # Εγκατάσταση σε Debian/Ubuntu/Linux Mint
 
@@ -59,18 +55,18 @@ sudo apt install sagemath sagemath-jupyter sagemath-doc-en
 
 ## Εγκατάσταση σε Debian/Ubuntu από συμπιεσμένο αρχείο
 
-* Μεταβείτε στην [ιστοσελίδα των λήψεων](http://ftp.ntua.gr/pub/sagemath/linux/index.html) και κατεβάστε την έκδοση που αντιστοιχεί στο λειτουργικό σας.
+- Μεταβείτε στην [ιστοσελίδα των λήψεων](http://ftp.ntua.gr/pub/sagemath/linux/index.html) και κατεβάστε την έκδοση που αντιστοιχεί στο λειτουργικό σας.
 
-* Στη συνέχεια αποσιμπιέστε το αρχείο **.tar.bz2** που κατεβάσατε. 
-**ΣΥΜΒΟΥΛΗ:** Φτιάξτε ένα κατάλογο **bin** μέσα στον προσωπικό σας φάκελο. Εκεί να αποθηκεύετε τα προγράμματα που θέλετε να εγκαταστήσετε (όπως το SageMath). Με αυτό τον τρόπο θα γνωρίζετε ότι πρόκειται για προγράμματα και δεν θα τον πειράζετε. Επίσης δεν θα είστε σίγουροι ότι δεν υπάρχει κάποιος Ελληνικός χαρακτήρας στο path που μπορεί να προκαλέσει κάποιο πρόβλημα.<br /><br />
+- Στη συνέχεια αποσιμπιέστε το αρχείο **.tar.bz2** που κατεβάσατε.
+  **ΣΥΜΒΟΥΛΗ:** Φτιάξτε ένα κατάλογο **bin** μέσα στον προσωπικό σας φάκελο. Εκεί να αποθηκεύετε τα προγράμματα που θέλετε να εγκαταστήσετε (όπως το SageMath). Με αυτό τον τρόπο θα γνωρίζετε ότι πρόκειται για προγράμματα και δεν θα τον πειράζετε. Επίσης δεν θα είστε σίγουροι ότι δεν υπάρχει κάποιος Ελληνικός χαρακτήρας στο path που μπορεί να προκαλέσει κάποιο πρόβλημα.<br /><br />
 
-* Αφού το αποσυμπιέσατε, μεταβείτε στον κατάλογο *SageMath* και εκτελέστε το πρόγραμμα *sage*
+- Αφού το αποσυμπιέσατε, μεταβείτε στον κατάλογο _SageMath_ και εκτελέστε το πρόγραμμα _sage_
 
 {% highlight ruby %}
 ./sage
 {% endhighlight %}
 
-* Την πρώτη φορά που θα εκτελεστεί το Sage θα σας δώσει μια εικόνα όπως το παρακάτω μήνυμα:
+- Την πρώτη φορά που θα εκτελεστεί το Sage θα σας δώσει μια εικόνα όπως το παρακάτω μήνυμα:
 
 {% highlight ruby %}
 Rewriting paths for your new installation directory
@@ -78,12 +74,12 @@ Rewriting paths for your new installation directory
 
 This might take a few minutes but only has to be done once.
 
-patching ...  (long list of files)
+patching ... (long list of files)
 {% endhighlight %}
 
 Από εδώ και πέρα, δεν μπορείτε να μετακινήσετε το Sage.
 
-* Τελευταία κίνηση είναι η δημιουργία συντόμευσης ώστε να μπορείτε να εκτελέσετε το Sage από το τερματικό. Τώρα μπορείτε να δημιουργήσετε την συντόμευση με την εντολή: 
+- Τελευταία κίνηση είναι η δημιουργία συντόμευσης ώστε να μπορείτε να εκτελέσετε το Sage από το τερματικό. Τώρα μπορείτε να δημιουργήσετε την συντόμευση με την εντολή:
 
 {% highlight ruby %}
 $ sudo ln -s /path/to/SageMath/sage /usr/local/bin/sage
@@ -95,13 +91,13 @@ $ sudo ln -s /path/to/SageMath/sage /usr/local/bin/sage
 
 # Εγκατάσταση σε Arch Linux
 
-* Εγκατάσταση με την εντολή:
+- Εγκατάσταση με την εντολή:
 
 {% highlight ruby %}
 sudo packam -S sagemath sagemath-jupyter sagemath-doc
 {% endhighlight %}
 
-* Το SageMath παρέχει και το Jupyter Notebook. Εκτελέστε την εντολή:
+- Το SageMath παρέχει και το Jupyter Notebook. Εκτελέστε την εντολή:
 
 {% highlight ruby %}
 $ jupyter notebook
@@ -117,7 +113,7 @@ $ jupyter notebook
 $ sage -c "notebook(automatic_login=True)"
 {% endhighlight %}
 
-Μεταβείτε στην διεύθυνση [http://localhost:8080/](http://localhost:8080/) και εκεί θα μπορείτε χρησιμοποιήσετε το Jupiter Notebook. Επειδή θα χρησιμοποιείτε μόνο εσείς το SageMath, μπορείτε να το εκτελέσετε χωρίς κωδικό. 
+Μεταβείτε στην διεύθυνση [http://localhost:8080/](http://localhost:8080/) και εκεί θα μπορείτε χρησιμοποιήσετε το Jupiter Notebook. Επειδή θα χρησιμοποιείτε μόνο εσείς το SageMath, μπορείτε να το εκτελέσετε χωρίς κωδικό.
 
 Για περισσότερες πληροφορίες, μπορείτε να [δείτε το Arch Linux wiki](https://wiki.archlinux.org/index.php/SageMath).
 
@@ -130,19 +126,19 @@ $ sage -c "notebook(automatic_login=True)"
 
 Οπότε εδώ θα δούμε πως θα κάνουμε λήψη, ενεργοποίηση και χρήση του SageMath.
 
-* Λήψη του θα την κάνετε με την εντολή:
+- Λήψη του θα την κάνετε με την εντολή:
 
 {% highlight ruby %}
 sudo docker pull sagemath/sagemath
 {% endhighlight %}
 
-* Αφού κατέβει, μπορείτε να δείτε την λίστα με τα images με την εντολή:
+- Αφού κατέβει, μπορείτε να δείτε την λίστα με τα images με την εντολή:
 
 {% highlight ruby %}
 sudo docker images
 {% endhighlight %}
 
-* Εκκίνηση του SageMath μαζί με το Jupyter Notebook.
+- Εκκίνηση του SageMath μαζί με το Jupyter Notebook.
 
 {% highlight ruby %}
 sudo docker run -p8888:8888 sagemath/sagemath:latest sage-jupyter
@@ -150,10 +146,9 @@ sudo docker run -p8888:8888 sagemath/sagemath:latest sage-jupyter
 
 Αφού εκτελεστεί, δείτε λίγο τα μηνύματα που θα βγάλει. Θα σας εμφανίσει ένα token. Αυτό θα το χρειαστείτε για να κάνετε είσοδο από την διεύθυνση [http://localhost:8888](http://localhost:8888) ή την τύπου http://IP:8888.
 
-
 ![SageMath Window](/post_images/sagemath/sagemath.jpg "SageMath window")
 
-* Αφού τελειώσετε, πρέπει να τερματίσετε τον server και να τερματίσετε το docker. Θα βρείτε το CONTAINER_ID με την εντολή:
+- Αφού τελειώσετε, πρέπει να τερματίσετε τον server και να τερματίσετε το docker. Θα βρείτε το CONTAINER_ID με την εντολή:
 
 {% highlight ruby %}
 sudo docker container ps
@@ -168,9 +163,9 @@ sudo docker container stop 3b40632adb78
 
 Υπάρχει και η δυνατότητα να μην εγκαταστήσετε τιποτα. Μπορείτε να βρείτε online τις εξής λύσεις:
 
-* [https://cocalc.com/](https://cocalc.com/): Η λύση αυτή είναι επι πληρωμή. Υπάρχει το δωρεάν πλάνο αλλά δεν είναι και τόσο γρήγορο. Μπορεί να περιμένετε αρκετή ώρα μέχρι να έχετε αποτέλεσμα.
+- [https://cocalc.com/](https://cocalc.com/): Η λύση αυτή είναι επι πληρωμή. Υπάρχει το δωρεάν πλάνο αλλά δεν είναι και τόσο γρήγορο. Μπορεί να περιμένετε αρκετή ώρα μέχρι να έχετε αποτέλεσμα.
 
-* [https://sagecell.sagemath.org/](https://sagecell.sagemath.org/): Ακόμα μια λύση, καλύτερη από το cocalc.
+- [https://sagecell.sagemath.org/](https://sagecell.sagemath.org/): Ακόμα μια λύση, καλύτερη από το cocalc.
 
 # Σημειωματάριο PORTO
 
