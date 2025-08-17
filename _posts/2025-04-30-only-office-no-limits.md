@@ -11,7 +11,7 @@ categories:
 twitter_text: "Δημιουργία ONLYOFFICE χωρίς το όριο των 20 συνδέσεων"
 ---
 
-![Δημιουργία ONLYOFFICE χωρίς το όριο των 20 συνδέσεων](/post_images/onlyoffice/ONLYOFFICE-20-connections.png "Δημιουργία ONLYOFFICE χωρίς το όριο των 20 συνδέσεων")
+![Δημιουργία ONLYOFFICE χωρίς το όριο των 20 συνδέσεων](/post_images/onlyoffice/ONLYOFFICE-20-connections.png "Δημιουργία ONLYOFFICE χωρίς το όριο των 20 συνδέσεων"){:width="520px"}
 
 ## Εισαγωγή
 
