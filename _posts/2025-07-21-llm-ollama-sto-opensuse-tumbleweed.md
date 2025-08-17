@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Εκτελώντας Τοπικά Γλωσσικά Μοντέλα (LLMs) με το Ollama στο openSUSE Tumbleweed"
+title: "Εκτελέστε Τοπικά LLMs με Ollama στο openSUSE"
 date: 2025-07-21 12:00:00
 description: Μάθετε πώς να εγκαταστήσετε το Ollama στο openSUSE Tumbleweed για να τρέξετε τοπικά LLMs. Οδηγός για αρχάριους με βήματα για παραμετροποίηση.
 tags:
@@ -13,7 +13,7 @@ categories:
 twitter_text: 'Εκτελώντας Τοπικά Γλωσσικά Μοντέλα (LLMs) με το Ollama στο openSUSE Tumbleweed'
 ---
 
-![Εκτελώντας Τοπικά Γλωσσικά Μοντέλα (LLMs) με το Ollama στο openSUSE Tumbleweed](/post_images/opensuse/tw.png "Εκτελώντας Τοπικά Γλωσσικά Μοντέλα (LLMs) με το Ollama στο openSUSE Tumbleweed"){:width="320px"}
+![Εκτελώντας Τοπικά Γλωσσικά Μοντέλα (LLMs) με το Ollama στο openSUSE Tumbleweed](/post_images/opensuse/tw.png "Εκτελώντας Τοπικά Γλωσσικά Μοντέλα (LLMs) με το Ollama στο openSUSE Tumbleweed")
 
 Η εκτέλεση μεγάλων γλωσσικών μοντέλων (LLMs) στον τοπικό σας υπολογιστή έχει γίνει όλο και πιο δημοφιλής, προσφέροντας ιδιωτικότητα, πρόσβαση χωρίς σύνδεση στο διαδίκτυο και δυνατότητες παραμετροποίησης. Το [Ollama](https://build.opensuse.org/package/show/openSUSE%3AFactory/ollama) είναι ένα φανταστικό εργαλείο που απλοποιεί τη διαδικασία λήψης, ρύθμισης και εκτέλεσης LLMs τοπικά. Χρησιμοποιεί το ισχυρό [llama.cpp](https://build.opensuse.org/package/show/openSUSE%3AFactory/llamacpp) ως backend, επιτρέποντας αποδοτική εξαγωγή συμπερασμάτων σε ποικιλία υλικού. Αυτός ο οδηγός θα σας καθοδηγήσει στην εγκατάσταση του Ollama στο openSUSE Tumbleweed και θα εξηγήσει βασικές έννοιες όπως τα Modelfiles, οι ετικέτες μοντέλων και η κβαντοποίηση.
 
