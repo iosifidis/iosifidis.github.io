@@ -15,7 +15,7 @@ categories:
 twitter_text: "Εγκατάσταση και ασφάλεια του Nextcloud server με το CrowdSec"
 ---
 
-![Εγκατάσταση και ασφάλεια του Nextcloud server με το CrowdSec](/post_images/nexcrowdsect/crowdsec-nextcloud.png "Εγκατάσταση και ασφάλεια του Nextcloud server με το CrowdSec"){:width="320px"}
+![Εγκατάσταση και ασφάλεια του Nextcloud server με το CrowdSec](/post_images/crowdsec/crowdsec-nextcloud.png "Εγκατάσταση και ασφάλεια του Nextcloud server με το CrowdSec"){:width="320px"}
 
 # Οδηγός εγκατάστασης: Ασφαλίστε τον Nextcloud Server σας με το CrowdSec
 
@@ -31,7 +31,7 @@ twitter_text: "Εγκατάσταση και ασφάλεια του Nextcloud s
 
 Όπως φαίνεται και στο διάγραμμα του οδηγού, η αρχιτεκτονική μας χρησιμοποιεί Docker για να απομονώσει τις υπηρεσίες:
 
-![Εγκατάσταση και ασφάλεια του Nextcloud server με το CrowdSec](/post_images/nexcrowdsect/629481df6c5a0b48aaac1ba6_codimd.s3.shivering-isles.png "Εγκατάσταση και ασφάλεια του Nextcloud server με το CrowdSec"){:width="320px"}
+![Εγκατάσταση και ασφάλεια του Nextcloud server με το CrowdSec](/post_images/crowdsec/629481df6c5a0b48aaac1ba6_codimd.s3.shivering-isles.png "Εγκατάσταση και ασφάλεια του Nextcloud server με το CrowdSec"){:width="320px"}
 
 - **User:** Ο χρήστης συνδέεται στον server. Η κίνησή του φτάνει πρώτα στον reverse proxy.
 - **Openresty + Bouncer:** Είναι ο reverse proxy (βασισμένος σε Nginx) που δέχεται τα αιτήματα. Ενσωματώνει τον "bouncer" του CrowdSec. Είναι υπεύθυνος για την προώθηση της κίνησης στο Nextcloud και για το μπλοκάρισμα των κακόβουλων IPs.
