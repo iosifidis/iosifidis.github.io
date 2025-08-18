@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Εγκατάσταση και ασφάλεια του Nextcloud server με το CrowdSec"
-date: 2025-02-10 12:00:00
+date: 2025-08-18 12:00:00
 description: Οδηγός για ασφαλή εγκατάσταση Nextcloud με CrowdSec. Προστατεύστε τον server σας από επιθέσεις με αναλυτικά βήματα και όλες τις εντολές για Docker.
 tags:
   - nextcloud
