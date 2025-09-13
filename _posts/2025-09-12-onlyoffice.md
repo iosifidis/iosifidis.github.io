@@ -28,33 +28,39 @@ twitter_text: "Ενεργοποίηση επεξεργασίας ONLYOFFICE σε
 
 ### Βήμα 1: Λήψη της ειδικής εικόνας Docker
 Η κοινότητα δημιούργησε μια ειδική εικόνα Docker με τις απαραίτητες τροποποιήσεις. Η λήψη γινόταν με την παρακάτω εντολή:
-{% highlight ruby %}
-docker pull nemskiller007/officeunleashed
-{% endhighlight %}
+
+    {% highlight ruby %}
+    docker pull nemskiller007/officeunleashed
+    {% endhighlight %}
 
 ### Βήμα 2: Εκκίνηση του Container
 Η εκτέλεση του container γινόταν με την ακόλουθη εντολή, η οποία χαρτογραφούσε τη θύρα 80 του container στην 8000 του host:
-{% highlight ruby %}
-docker run -i -t -d -p 8000:80 --restart=always nemskiller007/officeunleashed
-{% endhighlight %}
+
+    {% highlight ruby %}
+    docker run -i -t -d -p 8000:80 --restart=always nemskiller007/officeunleashed
+    {% endhighlight %}
 
 ### Βήμα 3: (Προαιρετικά) Ορισμός κωδικού πρόσβασης (JWT)
 Για την προστασία της εγκατάστασης με κωδικό, έπρεπε να τροποποιηθεί το αρχείο ρυθμίσεων μέσα στο container.
 
 1.  Βρείτε το CONTAINER_ID με την εντολή:
+
     {% highlight ruby %}
     docker ps -a
     {% endhighlight %}
 2.  Μπείτε στο shell του container:
+
     {% highlight ruby %}
     docker exec -it CONTAINER_ID /bin/bash
     {% endhighlight %}
 3.  Επεξεργαστείτε το αρχείο ρυθμίσεων:
+
     {% highlight ruby %}
     nano /out/linux_64/onlyoffice/documentserver/server/Common/config/default.json
     {% endhighlight %}
 4.  Πηγαίνετε στη γραμμή 155 και αντικαταστήστε τις τιμές "secret" με τον δικό σας κωδικό.
 5.  Στις γραμμές 163 έως 170, αλλάξτε τις τιμές από `false` σε `true` για το "request", "inbox" και "outbox". Παράδειγμα:
+
     {% highlight ruby %}
     "request": {
      "inbox": true,
@@ -62,6 +68,7 @@ docker run -i -t -d -p 8000:80 --restart=always nemskiller007/officeunleashed
     }
     {% endhighlight %}
 6.  Αποθηκεύστε τις αλλαγές και κάντε επανεκκίνηση του container:
+
     {% highlight ruby %}
     docker stop CONTAINER_ID
     docker start CONTAINER_ID
@@ -69,6 +76,7 @@ docker run -i -t -d -p 8000:80 --restart=always nemskiller007/officeunleashed
 
 ### Βήμα 4: Ρύθμιση Reverse Proxy (Nginx)
 Για την πρόσβαση μέσω ενός FQDN (π.χ., `office.mydomain.com`) και τη χρήση SSL, απαιτείται ένας reverse proxy. Ακολουθεί ένα παράδειγμα αρχείου ρυθμίσεων για το Nginx:
+
     {% highlight ruby %}
     upstream docservice {
       server office.MYDOMAIN.COM:8000;
