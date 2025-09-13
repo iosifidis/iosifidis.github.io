@@ -90,7 +90,7 @@ pin 1234
 1.  Αρχικά, εγκαταστήστε την εφαρμογή **Extension Manager** από το App Center του Ubuntu.
 2.  Ανοίξτε το Extension Manager και στην καρτέλα "Browse", αναζητήστε και εγκαταστήστε την επέκταση [**UXPlay Control**](https://extensions.gnome.org/extension/8243/uxplay-control/?rel=iosifidis.gr).
 
-![Πώς να κάνετε Mirror την οθόνη του iPhone/iPad σε Linux](/post_images/iphone-eiosifidis.png "Πώς να κάνετε Mirror την οθόνη του iPhone/iPad σε Linux")
+![Πώς να κάνετε Mirror την οθόνη του iPhone/iPad σε Linux](/post_images/iphone/iphone-eiosifidis.png "Πώς να κάνετε Mirror την οθόνη του iPhone/iPad σε Linux")
 
 Με αυτή την επέκταση, η διαχείριση του UxPlay γίνεται παιχνιδάκι!
 
