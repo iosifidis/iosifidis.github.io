@@ -136,10 +136,12 @@ server {
 {% highlight ruby %}
 isSupportEditFeature=function(){return!1}
 {% endhighlight %}
+
 5.  Αντικαταστήστε την με:
 {% highlight ruby %}
 isSupportEditFeature=function(){return 1}
 {% endhighlight %}
+
 6.  Αποθηκεύστε τα αρχεία και κάντε επανεκκίνηση τον Nginx. Είναι επίσης καλή ιδέα να καθαρίσετε την cache του browser σας.
 
 ### Αυτοματοποίηση με Shell Script
