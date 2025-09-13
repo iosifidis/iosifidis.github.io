@@ -43,24 +43,26 @@ twitter_text: "Ενεργοποίηση επεξεργασίας ONLYOFFICE σε
 ### Βήμα 3: (Προαιρετικά) Ορισμός κωδικού πρόσβασης (JWT)
 Για την προστασία της εγκατάστασης με κωδικό, έπρεπε να τροποποιηθεί το αρχείο ρυθμίσεων μέσα στο container.
 
-1.  Βρείτε το CONTAINER_ID με την εντολή:
+*  Βρείτε το CONTAINER_ID με την εντολή:
 
     {% highlight ruby %}
     docker ps -a
     {% endhighlight %}
-2.  Μπείτε στο shell του container:
+
+*  Μπείτε στο shell του container:
 
     {% highlight ruby %}
     docker exec -it CONTAINER_ID /bin/bash
     {% endhighlight %}
-3.  Επεξεργαστείτε το αρχείο ρυθμίσεων:
 
-```
-nano /out/linux_64/onlyoffice/documentserver/server/Common/config/default.json
-```
+*  Επεξεργαστείτε το αρχείο ρυθμίσεων:
 
-4.  Πηγαίνετε στη γραμμή 155 και αντικαταστήστε τις τιμές "secret" με τον δικό σας κωδικό.
-5.  Στις γραμμές 163 έως 170, αλλάξτε τις τιμές από `false` σε `true` για το "request", "inbox" και "outbox". Παράδειγμα:
+    {% highlight ruby %}
+    nano /out/linux_64/onlyoffice/documentserver/server/Common/config/default.json
+    {% endhighlight %}
+    
+*  Πηγαίνετε στη γραμμή 155 και αντικαταστήστε τις τιμές "secret" με τον δικό σας κωδικό.
+*  Στις γραμμές 163 έως 170, αλλάξτε τις τιμές από `false` σε `true` για το "request", "inbox" και "outbox". Παράδειγμα:
 
     {% highlight ruby %}
     "request": {
@@ -68,7 +70,8 @@ nano /out/linux_64/onlyoffice/documentserver/server/Common/config/default.json
      "outbox": true
     }
     {% endhighlight %}
-6.  Αποθηκεύστε τις αλλαγές και κάντε επανεκκίνηση του container:
+    
+*  Αποθηκεύστε τις αλλαγές και κάντε επανεκκίνηση του container:
 
     {% highlight ruby %}
     docker stop CONTAINER_ID
@@ -121,6 +124,7 @@ nano /out/linux_64/onlyoffice/documentserver/server/Common/config/default.json
       }
     }
     {% endhighlight %}
+
 Μετά τη ρύθμιση, θα πρέπει να κάνετε reload τον Nginx και να εγκαταστήσετε ένα πιστοποιητικό SSL (π.χ., με το Letsencrypt). Εάν το [Nextcloud](https://nextcloud.com/?rel=iosifidis.gr) και το ONLYOFFICE Docker τρέχουν στον ίδιο host, ίσως χρειαστεί να προσθέσετε την γραμμή `127.0.0.1 office.MYDOMAIN.COM` στο αρχείο `/etc/hosts`.
 
 ---
@@ -131,30 +135,36 @@ nano /out/linux_64/onlyoffice/documentserver/server/Common/config/default.json
 ### Η διαδικασία
 Η λογική είναι να βρεθεί μια συνάρτηση που ελέγχει αν η επεξεργασία υποστηρίζεται και να την αλλάξετε ώστε να επιστρέφει πάντα "true".
 
-1.  Εγκαταστήστε την επίσημη έκδοση του ONLYOFFICE Document Server (είτε μέσω Docker είτε ως πακέτο).
-2.  Εντοπίστε τα παρακάτω 3 αρχεία JavaScript στον server σας. Η διαδρομή μπορεί να διαφέρει, αλλά συνήθως βρίσκεται μέσα στο `/var/www/onlyoffice/documentserver/web-apps/apps/`.
+*  Εγκαταστήστε την επίσημη έκδοση του ONLYOFFICE Document Server (είτε μέσω Docker είτε ως πακέτο).
+*  Εντοπίστε τα παρακάτω 3 αρχεία JavaScript στον server σας. Η διαδρομή μπορεί να διαφέρει, αλλά συνήθως βρίσκεται μέσα στο `/var/www/onlyoffice/documentserver/web-apps/apps/`.
     *   `.../spreadsheeteditor/mobile/dist/js/app.js`
     *   `.../documenteditor/mobile/dist/js/app.js`
     *   `.../presentationeditor/mobile/dist/js/app.js`
-3.  Ανοίξτε κάθε ένα από αυτά τα αρχεία με έναν επεξεργαστή κειμένου (π.χ., `sudo nano ...`).
-4.  Κάντε αναζήτηση για την παρακάτω συμβολοσειρά:
+*  Ανοίξτε κάθε ένα από αυτά τα αρχεία με έναν επεξεργαστή κειμένου (π.χ., `sudo nano ...`).
+*  Κάντε αναζήτηση για την παρακάτω συμβολοσειρά:
+
     {% highlight ruby %}
     isSupportEditFeature=function(){return!1}
     {% endhighlight %}
-5.  Αντικαταστήστε την με:
+
+*  Αντικαταστήστε την με:
+
     {% highlight ruby %}
     isSupportEditFeature=function(){return 1}
     {% endhighlight %}
-6.  Αποθηκεύστε τα αρχεία και κάντε επανεκκίνηση τον Nginx. Είναι επίσης καλή ιδέα να καθαρίσετε την cache του browser σας.
+
+*  Αποθηκεύστε τα αρχεία και κάντε επανεκκίνηση τον Nginx. Είναι επίσης καλή ιδέα να καθαρίσετε την cache του browser σας.
 
 ### Αυτοματοποίηση με Shell Script
 Ο χρήστης 'jorsn' πρότεινε ένα script για την αυτοματοποίηση αυτής της διαδικασίας σε ένα Docker container:
+
     {% highlight ruby %}
     for f in $ROOT/var/www/onlyoffice/documentserver/web-apps/apps/*/mobile/dist/js/app.js; do
       sed -i 's/\(isSupportEditFeature:function(){return\)!1/\11/' "$f"
       && { cat "$f" | gzip > "$f".gz; }
     done
     {% endhighlight %}
+
 Εδώ, το `$ROOT` αντιπροσωπεύει τη ριζική διαδρομή του filesystem μέσα στο container. Αυτή η μέθοδος τροποποιεί τα αρχεία και τα συμπιέζει ξανά σε gzip, όπως αναμένεται από τον server.
 
 ---
