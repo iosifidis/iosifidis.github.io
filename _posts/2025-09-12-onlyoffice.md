@@ -55,9 +55,10 @@ twitter_text: "Ενεργοποίηση επεξεργασίας ONLYOFFICE σε
     {% endhighlight %}
 3.  Επεξεργαστείτε το αρχείο ρυθμίσεων:
 
-    {% highlight ruby %}
-    nano /out/linux_64/onlyoffice/documentserver/server/Common/config/default.json
-    {% endhighlight %}
+```
+nano /out/linux_64/onlyoffice/documentserver/server/Common/config/default.json
+```
+
 4.  Πηγαίνετε στη γραμμή 155 και αντικαταστήστε τις τιμές "secret" με τον δικό σας κωδικό.
 5.  Στις γραμμές 163 έως 170, αλλάξτε τις τιμές από `false` σε `true` για το "request", "inbox" και "outbox". Παράδειγμα:
 
