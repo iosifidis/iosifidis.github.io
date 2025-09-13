@@ -42,80 +42,76 @@ docker run -i -t -d -p 8000:80 --restart=always nemskiller007/officeunleashed
 Για την προστασία της εγκατάστασης με κωδικό, έπρεπε να τροποποιηθεί το αρχείο ρυθμίσεων μέσα στο container.
 
 1.  Βρείτε το CONTAINER_ID με την εντολή:
-{% highlight ruby %}
-docker ps -a
-{% endhighlight %}
-
+    {% highlight ruby %}
+    docker ps -a
+    {% endhighlight %}
 2.  Μπείτε στο shell του container:
-{% highlight ruby %}
-docker exec -it CONTAINER_ID /bin/bash
-{% endhighlight %}
-
+    {% highlight ruby %}
+    docker exec -it CONTAINER_ID /bin/bash
+    {% endhighlight %}
 3.  Επεξεργαστείτε το αρχείο ρυθμίσεων:
-{% highlight ruby %}
-nano /out/linux_64/onlyoffice/documentserver/server/Common/config/default.json
-{% endhighlight %}
-
+    {% highlight ruby %}
+    nano /out/linux_64/onlyoffice/documentserver/server/Common/config/default.json
+    {% endhighlight %}
 4.  Πηγαίνετε στη γραμμή 155 και αντικαταστήστε τις τιμές "secret" με τον δικό σας κωδικό.
 5.  Στις γραμμές 163 έως 170, αλλάξτε τις τιμές από `false` σε `true` για το "request", "inbox" και "outbox". Παράδειγμα:
-{% highlight ruby %}
-"request": {
- "inbox": true,
- "outbox": true
-}
-{% endhighlight %}
-
+    {% highlight ruby %}
+    "request": {
+     "inbox": true,
+     "outbox": true
+    }
+    {% endhighlight %}
 6.  Αποθηκεύστε τις αλλαγές και κάντε επανεκκίνηση του container:
-{% highlight ruby %}
-docker stop CONTAINER_ID
-docker start CONTAINER_ID
-{% endhighlight %}
+    {% highlight ruby %}
+    docker stop CONTAINER_ID
+    docker start CONTAINER_ID
+    {% endhighlight %}
 
 ### Βήμα 4: Ρύθμιση Reverse Proxy (Nginx)
 Για την πρόσβαση μέσω ενός FQDN (π.χ., `office.mydomain.com`) και τη χρήση SSL, απαιτείται ένας reverse proxy. Ακολουθεί ένα παράδειγμα αρχείου ρυθμίσεων για το Nginx:
-{% highlight ruby %}
-upstream docservice {
-  server office.MYDOMAIN.COM:8000;
-}
+    {% highlight ruby %}
+    upstream docservice {
+      server office.MYDOMAIN.COM:8000;
+    }
 
-map $http_host $this_host {
-  "" $host;
-  default $http_host;
-}
+    map $http_host $this_host {
+      "" $host;
+      default $http_host;
+    }
 
-map $http_x_forwarded_proto $the_scheme {
-  default $http_x_forwarded_proto;
-  "" $scheme;
-}
+    map $http_x_forwarded_proto $the_scheme {
+      default $http_x_forwarded_proto;
+      "" $scheme;
+    }
 
-map $http_x_forwarded_host $the_host {
-  default $http_x_forwarded_host;
-  "" $this_host;
-}
+    map $http_x_forwarded_host $the_host {
+      default $http_x_forwarded_host;
+      "" $this_host;
+    }
 
-map $http_upgrade $proxy_connection {
-  default upgrade;
-  "" close;
-}
+    map $http_upgrade $proxy_connection {
+      default upgrade;
+      "" close;
+    }
 
-proxy_set_header Upgrade $http_upgrade;
-proxy_set_header Connection $proxy_connection;
-proxy_set_header X-Forwarded-Host $the_host;
-proxy_set_header X-Forwarded-Proto $the_scheme;
-proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+    proxy_set_header Upgrade $http_upgrade;
+    proxy_set_header Connection $proxy_connection;
+    proxy_set_header X-Forwarded-Host $the_host;
+    proxy_set_header X-Forwarded-Proto $the_scheme;
+    proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
 
-server {
-  server_tokens off;
-  listen 0.0.0.0:80;
-  listen [::]:80;
-  server_name office.MYDOMAIN.COM;
+    server {
+      server_tokens off;
+      listen 0.0.0.0:80;
+      listen [::]:80;
+      server_name office.MYDOMAIN.COM;
 
-  location / {
-    proxy_pass http://docservice;
-    proxy_http_version 1.1;
-  }
-}
-{% endhighlight %}
+      location / {
+        proxy_pass http://docservice;
+        proxy_http_version 1.1;
+      }
+    }
+    {% endhighlight %}
 Μετά τη ρύθμιση, θα πρέπει να κάνετε reload τον Nginx και να εγκαταστήσετε ένα πιστοποιητικό SSL (π.χ., με το Letsencrypt). Εάν το [Nextcloud](https://nextcloud.com/?rel=iosifidis.gr) και το ONLYOFFICE Docker τρέχουν στον ίδιο host, ίσως χρειαστεί να προσθέσετε την γραμμή `127.0.0.1 office.MYDOMAIN.COM` στο αρχείο `/etc/hosts`.
 
 ---
@@ -133,25 +129,23 @@ server {
     *   `.../presentationeditor/mobile/dist/js/app.js`
 3.  Ανοίξτε κάθε ένα από αυτά τα αρχεία με έναν επεξεργαστή κειμένου (π.χ., `sudo nano ...`).
 4.  Κάντε αναζήτηση για την παρακάτω συμβολοσειρά:
-{% highlight ruby %}
-isSupportEditFeature=function(){return!1}
-{% endhighlight %}
-
+    {% highlight ruby %}
+    isSupportEditFeature=function(){return!1}
+    {% endhighlight %}
 5.  Αντικαταστήστε την με:
-{% highlight ruby %}
-isSupportEditFeature=function(){return 1}
-{% endhighlight %}
-
+    {% highlight ruby %}
+    isSupportEditFeature=function(){return 1}
+    {% endhighlight %}
 6.  Αποθηκεύστε τα αρχεία και κάντε επανεκκίνηση τον Nginx. Είναι επίσης καλή ιδέα να καθαρίσετε την cache του browser σας.
 
 ### Αυτοματοποίηση με Shell Script
 Ο χρήστης 'jorsn' πρότεινε ένα script για την αυτοματοποίηση αυτής της διαδικασίας σε ένα Docker container:
-{% highlight ruby %}
-for f in $ROOT/var/www/onlyoffice/documentserver/web-apps/apps/*/mobile/dist/js/app.js; do
-  sed -i 's/\(isSupportEditFeature:function(){return\)!1/\11/' "$f"
-  && { cat "$f" | gzip > "$f".gz; }
-done
-{% endhighlight %}
+    {% highlight ruby %}
+    for f in $ROOT/var/www/onlyoffice/documentserver/web-apps/apps/*/mobile/dist/js/app.js; do
+      sed -i 's/\(isSupportEditFeature:function(){return\)!1/\11/' "$f"
+      && { cat "$f" | gzip > "$f".gz; }
+    done
+    {% endhighlight %}
 Εδώ, το `$ROOT` αντιπροσωπεύει τη ριζική διαδρομή του filesystem μέσα στο container. Αυτή η μέθοδος τροποποιεί τα αρχεία και τα συμπιέζει ξανά σε gzip, όπως αναμένεται από τον server.
 
 ---
