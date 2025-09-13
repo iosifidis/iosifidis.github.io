@@ -45,14 +45,17 @@ docker run -i -t -d -p 8000:80 --restart=always nemskiller007/officeunleashed
 {% highlight ruby %}
 docker ps -a
 {% endhighlight %}
+
 2.  Μπείτε στο shell του container:
 {% highlight ruby %}
 docker exec -it CONTAINER_ID /bin/bash
 {% endhighlight %}
+
 3.  Επεξεργαστείτε το αρχείο ρυθμίσεων:
 {% highlight ruby %}
 nano /out/linux_64/onlyoffice/documentserver/server/Common/config/default.json
 {% endhighlight %}
+
 4.  Πηγαίνετε στη γραμμή 155 και αντικαταστήστε τις τιμές "secret" με τον δικό σας κωδικό.
 5.  Στις γραμμές 163 έως 170, αλλάξτε τις τιμές από `false` σε `true` για το "request", "inbox" και "outbox". Παράδειγμα:
 {% highlight ruby %}
@@ -61,6 +64,7 @@ nano /out/linux_64/onlyoffice/documentserver/server/Common/config/default.json
  "outbox": true
 }
 {% endhighlight %}
+
 6.  Αποθηκεύστε τις αλλαγές και κάντε επανεκκίνηση του container:
 {% highlight ruby %}
 docker stop CONTAINER_ID
