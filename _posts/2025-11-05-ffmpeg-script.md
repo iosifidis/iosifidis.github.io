@@ -54,7 +54,7 @@ ffmpeg -i "URL_HLS_STREAM" -ss ΩΡΑ_ΕΝΑΡΞΗΣ -t ΔΙΑΡΚΕΙΑ -c copy
 
 **Παράδειγμα:** Για να πάρουμε 2 λεπτά από ένα stream, ξεκινώντας από το 1ο λεπτό, θα γράφαμε:
 
-{% highlight ruby %}
+{% highlight bash %}
 ffmpeg -i "http://example.com/stream.m3u8" -ss 00:01:00 -t 00:02:00 -c copy clip.mp4
 {% endhighlight %}
 
@@ -80,7 +80,7 @@ ffmpeg -i "http://example.com/stream.m3u8" -ss 00:01:00 -t 00:02:00 -c copy clip
 
 Αντί να γράφετε περίπλοκες εντολές, απλά εκτελείτε το script και ακολουθείτε τον διάλογο:
 
-{% highlight ruby %}
+{% highlight bash %}
 🎬 Απλό & Αξιόπιστο Video Cutter
 --------------------------------------------------
 🔗 Δώσε το τοπικό αρχείο ή το URL του stream: my_awesome_movie.mkv
@@ -107,19 +107,19 @@ ffmpeg -i "http://example.com/stream.m3u8" -ss 00:01:00 -t 00:02:00 -c copy clip
 
 ### 🚀 Εγκατάσταση και Χρήση
 
-1.  **Κατεβάστε το script** από το αποθετήριο:
-    {% highlight ruby %}
+*  **Κατεβάστε το script** από το αποθετήριο:
+    {% highlight bash %}
     git clone https://github.com/iosifidis/myScripts.git
     cd myScripts/ffmpeg_script
     {% endhighlight %}
     
-2.  **Δώστε του δικαιώματα εκτέλεσης:**
-    {% highlight ruby %}
+*  **Δώστε του δικαιώματα εκτέλεσης:**
+    {% highlight bash %}
     chmod +x cut_video.sh
     {% endhighlight %}
     
-3.  **Εκτελέστε το:**
-    {% highlight ruby %}
+*  **Εκτελέστε το:**
+    {% highlight bash %}
     ./cut_video.sh
     {% endhighlight %}
 
