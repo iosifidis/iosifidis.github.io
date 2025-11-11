@@ -31,7 +31,7 @@ twitter_text: 'Ο τεμαχισμός βίντεο με FFMPEG έγινε εύ�
 
 Αν δεν το έχετε ήδη, το πρώτο βήμα είναι να το εγκαταστήσετε. Σε ένα σύστημα Fedora, για παράδειγμα, η εντολή είναι:
 
-{% highlight ruby %}
+{% highlight bash %}
 sudo dnf install ffmpeg
 {% endhighlight %}
 
@@ -80,7 +80,7 @@ ffmpeg -i "http://example.com/stream.m3u8" -ss 00:01:00 -t 00:02:00 -c copy clip
 
 Αντί να γράφετε περίπλοκες εντολές, απλά εκτελείτε το script και ακολουθείτε τον διάλογο:
 
-{% endhighlight %}
+{% highlight ruby %}
 🎬 Απλό & Αξιόπιστο Video Cutter
 --------------------------------------------------
 🔗 Δώσε το τοπικό αρχείο ή το URL του stream: my_awesome_movie.mkv
