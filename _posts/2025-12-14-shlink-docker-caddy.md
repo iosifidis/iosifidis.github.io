@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Shlink Docker Deployment με Caddy Reverse Proxy"
-date: 2025-12-15 12:00:00
+date: 2025-12-14 12:00:00
 description: Αυτός ο οδηγός περιγράφει την εγκατάσταση του Shlink χρησιμοποιώντας Docker Compose, με Reverse Proxy τον Caddy. Η εγκατάσταση χρησιμοποιεί Bind Mounts για εύκολη μεταφορά (portability) και backup.
 tags:
   - shlink
@@ -59,6 +59,17 @@ services:
       - SHORT_DOMAIN_SCHEMA=https
       # Validate URLs to avoid shortening broken links
       - VALIDATE_URL=true 
+    
+      # Προαιρετικό: Αν θες στατιστικά τοποθεσίας (χρειάζεται δωρεάν κλειδί από MaxMind)
+      # https://www.maxmind.com/en/geolite2/signup (επιλογή Manage License Keys)
+      # - GEOLITE_LICENSE_KEY=your_license_key_here
+      # ανωνυμοποίηση της IP
+      # - ANONYMIZE_REMOTE_ADDR=true  # Κρύβει το τελευταίο μέρος της IP (π.χ. 192.168.1.xxx)
+      # - VISITS_WEBHOOKS_DELAY=0
+
+      # Redirects
+      - DEFAULT_BASE_URL_REDIRECT=https://iosifidis.gr
+      - DEFAULT_INVALID_SHORT_URL_REDIRECT=https://iosifidis.gr/404  # Αν χτυπήσει λάθος short link
 
     volumes:
       # Bind mount για εύκολο backup. 
@@ -124,7 +135,23 @@ docker exec -it shlink shlink api-key:generate
 
 ---
 
-## 6. Διαδικασία Backup & Restore (Migration)
+## 6. Σύνδεση με το Διαχειριστικό (Web Client)
+
+Δεν χρειάζεται να στήσεις δικό σου διαχειριστικό αν δεν θες. Η ομάδα του Shlink παρέχει έναν δωρεάν web client που τρέχει **αποκλειστικά στον browser σου** (τα δεδομένα δεν πάνε στους servers τους, απλά ο browser σου μιλάει απευθείας με τον server σου).
+
+1.  Μπες στο: **[https://app.shlink.io](https://app.shlink.io)**
+2.  Πάτα **"Add a server"**.
+3.  Συμπλήρωσε τα στοιχεία:
+    *   **Name:** `URL Shortener` (ή ό,τι θες).
+    *   **URL:** `https://mytiny.duckdns.org`
+    *   **API Key:** Το κλειδί που παρήγαγες στο προηγούμενο βήμα (`docker exec ...`).
+4.  Πάτα **"Create server"**.
+
+Πλέον έχεις ένα πλήρες γραφικό περιβάλλον για να φτιάχνεις links, να βλέπεις στατιστικά, QR codes κλπ.
+
+---
+
+## 7. Διαδικασία Backup & Restore (Migration)
 
 Επειδή χρησιμοποιούμε **Bind Mounts** και **SQLite**, το backup είναι απλά μια συμπίεση του φακέλου.
 
