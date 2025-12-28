@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Κατασκευή Multiboot openSUSE USB (UEFI & Agama Ready)"
-date: 2025-12-30 12:00:00
+date: 2025-12-28 12:00:00
 description: Κατασκευή ενός multiboot usb με openSUSE όταν το Ventoy μας απογοητεύει
 tags:
   - multiboot
