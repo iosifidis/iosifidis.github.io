@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Πώς να ρυθμίσετε το DuckDNS στο Raspberry Pi για απομακρυσμένη πρόσβαση"
-date: 2026-01-18 11:00:00
+date: 2026-01-18 12:00:00
 description: Μάθετε πώς να ρυθμίσετε το DuckDNS στο Raspberry Pi. Δωρεάν Dynamic DNS για απομακρυσμένη πρόσβαση. Βήμα προς βήμα εγκατάσταση με cron.
 tags:
   - duckdns
@@ -19,7 +19,7 @@ twitter_text: "Πώς να ρυθμίσετε το DuckDNS στο Raspberry Pi �
 
 ![DuckDNS στο Raspberry Pi](/post_images/devops/duckdns.webp "DuckDNS στο Raspberry Pi"){:width="320px"}
 
-Το DuckDNS είναι μια δωρεάν υπηρεσία Dynamic DNS που σας επιτρέπει να έχετε σταθερή πρόσβαση στο Raspberry Pi σας, ακόμα και αν η δημόσια IP διεύθυνσή σας αλλάζει. Σε αυτόν τον οδηγό, θα δείτε βήμα προς βήμα πώς να ρυθμίσετε το DuckDNS στο Raspberry Pi σας.
+Το DuckDNS είναι μια δωρεάν υπηρεσία Dynamic DNS που σας επιτρέπει να έχετε σταθερή πρόσβαση στο [Raspberry Pi](https://www.raspberrypi.com/) σας, ακόμα και αν η δημόσια IP διεύθυνσή σας αλλάζει. Σε αυτόν τον οδηγό, θα δείτε βήμα προς βήμα πώς να ρυθμίσετε το DuckDNS στο Raspberry Pi σας.
 
 ## 1. Δημιουργία Λογαριασμού και Domain στο DuckDNS
 
