@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Πώς να ρυθμίσετε το DuckDNS στο Raspberry Pi για απομακρυσμένη πρόσβαση"
-date: 2026-01-18 12:00:00
+date: 2026-01-18 11:00:00
 description: Μάθετε πώς να ρυθμίσετε το DuckDNS στο Raspberry Pi. Δωρεάν Dynamic DNS για απομακρυσμένη πρόσβαση. Βήμα προς βήμα εγκατάσταση με cron.
 tags:
   - duckdns
