@@ -15,7 +15,7 @@ categories:
 twitter_text: "Ενσωμάτωση Uptime Kuma v2 με Nextcloud Talk: Λαμβάνετε ειδοποιήσεις monitoring απευθείας στο chat σας"
 ---
 
-![Ενσωμάτωση Uptime Kuma v2 με Nextcloud Talk](/post_images/nextcloud/uptime-nextcloud.webp){:width="320px"}
+![Ενσωμάτωση Uptime Kuma v2 με Nextcloud Talk](/post_images/nextcloud/uptime-nextcloud.webp){:width="520px"}
 
 Αν διαχειρίζεστε υπηρεσίες στον δικό σας server — είτε πρόκειται για Nextcloud, [Audiobookshelf](https://github.com/advplyr/audiobookshelf), Plex, Proxmox ή οτιδήποτε άλλο — γνωρίζετε πόσο σημαντικό είναι να μαθαίνετε _αμέσως_ όταν κάτι πάει στραβά. Η αναμονή να ανακαλύψετε τυχαία ότι μια υπηρεσία «έπεσε» δεν είναι διαχείριση — είναι τύχη.
 
