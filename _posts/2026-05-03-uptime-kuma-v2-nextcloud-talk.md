@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Ενσωμάτωση Uptime Kuma v2 με Nextcloud Talk: Λαμβάνετε ειδοποιήσεις monitoring απευθείας στο chat σας"
-date: 2026-05-03 12:00:00
+date: 2026-05-03 10:00:00
 description: Οδηγός ρύθμισης Uptime Kuma v2 με Nextcloud Talk. Λαμβάνετε αυτόματες ειδοποιήσεις monitoring στο chat σας μέσω Talk bot σε Nextcloud AIO.
 tags:
   - nextcloud
@@ -228,7 +228,5 @@ php occ talk:bot:uninstall 16
 
 Με λίγες εντολές OCC και μια σύντομη ρύθμιση στο Uptime Kuma, έχετε ένα πλήρες σύστημα ειδοποιήσεων που σας ενημερώνει αμέσως για κάθε αλλαγή κατάστασης στις υπηρεσίες σας.
 
-
-**Αρχική δημοσίευση**: 
-
+Αρχική δημοσίευση:   
 [https://eiosifidis.blogspot.com/2026/05/uptime-kuma-v2-nextcloud-talk.html](https://eiosifidis.blogspot.com/2026/05/uptime-kuma-v2-nextcloud-talk.html){:target="\_blank"}
