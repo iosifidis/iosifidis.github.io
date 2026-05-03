@@ -33,10 +33,10 @@ twitter_text: "Ενσωμάτωση Uptime Kuma v2 με Nextcloud Talk: Λαμβ
 Uptime Kuma
     │
     │  HTTP αίτημα (υπογεγραμμένο με HMAC-SHA256)
-      ▼
+    ▼
 Nextcloud Talk Bot API
     │
-      ▼
+    ▼
 Talk conversation (π.χ. infra-alerts)
 {% endhighlight %}
 
