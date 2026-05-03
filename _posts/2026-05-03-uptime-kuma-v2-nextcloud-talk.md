@@ -228,5 +228,7 @@ php occ talk:bot:uninstall 16
 
 Με λίγες εντολές OCC και μια σύντομη ρύθμιση στο Uptime Kuma, έχετε ένα πλήρες σύστημα ειδοποιήσεων που σας ενημερώνει αμέσως για κάθε αλλαγή κατάστασης στις υπηρεσίες σας.
 
-Αρχική δημοσίευση:  
+
+**Αρχική δημοσίευση**: 
+
 [https://eiosifidis.blogspot.com/2026/05/uptime-kuma-v2-nextcloud-talk.html](https://eiosifidis.blogspot.com/2026/05/uptime-kuma-v2-nextcloud-talk.html){:target="\_blank"}
